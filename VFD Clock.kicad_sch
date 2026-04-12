@@ -2,9 +2,19 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 18b1ce2b-a4eb-4908-8bcd-bbd2350e3040)
+	(uuid "18b1ce2b-a4eb-4908-8bcd-bbd2350e3040")
 	(paper "A4")
 	(lib_symbols)
+	(text "Test"
+		(exclude_from_sim no)
+		(at 104.14 86.106 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e08eb36d-a33b-4554-a2e2-7921e02967d0")
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -409,11 +409,22 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
+    "top_level_sheets": [
+      {
+        "filename": "VFD Clock.kicad_sch",
+        "name": "VFD Clock",
+        "uuid": "18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+      }
+    ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "18b1ce2b-a4eb-4908-8bcd-bbd2350e3040",
+      "VFD Clock"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
