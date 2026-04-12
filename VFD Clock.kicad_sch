@@ -395,14 +395,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "IV-11 VFD Tube:IV-11_VFD_Tube"
+		(symbol "Custom Parts:IV-11_VFD_Tube"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 4.826 8.636 0)
+				(at 0.762 8.128 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -412,7 +412,7 @@
 				)
 			)
 			(property "Value" "IV-11 VFD Tube"
-				(at 5.334 6.35 0)
+				(at 7.874 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -421,7 +421,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom Parts:IV-11 VFD Tube"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -443,18 +443,7 @@
 					)
 				)
 			)
-			(property "Description" "Vintage USSR IV-11 VFD Tube"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "VFD, IV-11"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -480,7 +469,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -17.78) (xy 0 -13.97)
+						(xy 0 -13.97) (xy 0 -17.78)
 					)
 					(stroke
 						(width 0)
@@ -538,10 +527,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 10.16 -13.97)
-					)
+				(arc
+					(start 6.35 -10.16)
+					(mid 7.0939 -8.3639)
+					(end 8.89 -7.62)
 					(stroke
 						(width 0)
 						(type default)
@@ -551,21 +540,9 @@
 					)
 				)
 				(arc
-					(start 7.62 -10.16)
-					(mid 8.3639 -8.3639)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 -12.7)
-					(mid 8.3639 -11.9561)
-					(end 7.62 -10.16)
+					(start 8.89 -12.7)
+					(mid 7.0939 -11.9561)
+					(end 6.35 -10.16)
 					(stroke
 						(width 0)
 						(type default)
@@ -576,7 +553,31 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -17.78) (xy 10.16 -13.97)
+						(xy 10.16 0) (xy 10.16 -17.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -12.7) (xy 8.89 -12.7)
 					)
 					(stroke
 						(width 0)
@@ -1980,10 +1981,264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(symbol
-		(lib_id "IV-11 VFD Tube:IV-11_VFD_Tube")
-		(at 176.53 35.56 0)
+		(lib_id "Custom Parts:IV-11_VFD_Tube")
+		(at 120.65 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1992,9 +2247,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "11713dca-5a90-4476-b91a-df7255aa2c5d")
-		(property "Reference" "U16"
-			(at 181.61 25.4 0)
+		(uuid "0f7a21ea-0240-4d6b-88d4-9e945cc122d5")
+		(property "Reference" "U14"
+			(at 125.73 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2004,7 +2259,7 @@
 			)
 		)
 		(property "Value" "IV-11 VFD Tube"
-			(at 181.61 27.94 0)
+			(at 125.73 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2013,8 +2268,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 35.56 0)
+		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
+			(at 120.65 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2280,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 176.53 35.56 0)
+			(at 120.65 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,8 +2290,8 @@
 				)
 			)
 		)
-		(property "Description" "Vintage USSR IV-11 VFD Tube"
-			(at 181.61 35.56 0)
+		(property "Description" ""
+			(at 120.65 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,42 +2302,256 @@
 			)
 		)
 		(pin "7"
-			(uuid "718d8a05-e896-4ba0-b23c-de913754810c")
-		)
-		(pin "5"
-			(uuid "038a8dad-54ad-4732-99bc-12fb198ca9d5")
-		)
-		(pin "1"
-			(uuid "7f5d7a27-9424-488f-8369-1f429a465178")
-		)
-		(pin "2"
-			(uuid "d9fccbdc-690c-489f-8b9d-83d234c461d8")
-		)
-		(pin "4"
-			(uuid "e80d8c76-c7d7-4fa4-9a91-bd456da66243")
-		)
-		(pin "8"
-			(uuid "c018e3c2-9fb8-46bf-a868-e66f17af3356")
-		)
-		(pin "9"
-			(uuid "ead0542b-dc5c-4010-826a-91bbe15e0d91")
-		)
-		(pin "11"
-			(uuid "1a1cbe3d-39dc-4e51-8ef4-8e24f2b14ec8")
+			(uuid "b243686b-2f9e-4ef0-9747-a566e909ad23")
 		)
 		(pin "3"
-			(uuid "c5fb1035-743a-4d69-a1c5-ae1b2f0e91dd")
+			(uuid "64ae970a-49f6-4243-bd89-03679ec7ed06")
+		)
+		(pin "5"
+			(uuid "53061fc1-dfb1-45eb-8b14-37c8958b13b6")
+		)
+		(pin "2"
+			(uuid "3812728c-f1b0-4d50-946a-1446260a875c")
+		)
+		(pin "8"
+			(uuid "883dcb2a-1384-444b-94a0-582c2f704628")
+		)
+		(pin "4"
+			(uuid "687eb83f-eae5-468c-aa82-22fd682693a4")
 		)
 		(pin "6"
-			(uuid "ad47d50f-ec94-4bf8-8ed4-129bc82ff0a9")
+			(uuid "8994abe3-984a-469c-85f3-f9e8706d8fec")
+		)
+		(pin "11"
+			(uuid "24973219-9d1c-45d4-836a-385658bdd777")
 		)
 		(pin "10"
-			(uuid "16f3d49a-9c42-4476-bf0e-74d3e82ffffa")
+			(uuid "ba6ee1f6-765d-46d0-9783-c541bd586317")
+		)
+		(pin "1"
+			(uuid "382ff23c-f808-4b00-9b83-c998a680d3c7")
+		)
+		(pin "9"
+			(uuid "cb24474a-5efd-4d3a-a802-da16725f92db")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U16")
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom Parts:IV-11_VFD_Tube")
+		(at 92.71 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18e7a109-8a16-4f8f-bc98-7313cb0f7428")
+		(property "Reference" "U13"
+			(at 97.79 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IV-11 VFD Tube"
+			(at 97.79 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
+			(at 92.71 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
+			(at 92.71 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "f1e7595a-3f45-4586-9445-0538a0f23718")
+		)
+		(pin "3"
+			(uuid "f9bfa44e-e050-40ba-ac2e-963568904e69")
+		)
+		(pin "5"
+			(uuid "52f12bda-0620-4502-86c3-687e2f73e380")
+		)
+		(pin "2"
+			(uuid "81732b7c-28db-432b-b9d4-c9c2433d09a7")
+		)
+		(pin "8"
+			(uuid "05ec76b4-6f9a-4da6-97f9-37f267a03820")
+		)
+		(pin "4"
+			(uuid "5476400e-fec7-4517-8ab4-b497a437225e")
+		)
+		(pin "6"
+			(uuid "b5ac351f-48b1-4ae9-a10c-bfd104130d58")
+		)
+		(pin "11"
+			(uuid "c7ed2605-f0cc-4337-b373-eea437aed92b")
+		)
+		(pin "10"
+			(uuid "e8b688e2-4410-4180-8133-1e96101852c4")
+		)
+		(pin "1"
+			(uuid "86b1a7f5-d6a1-41bf-a318-302f5e54e463")
+		)
+		(pin "9"
+			(uuid "44201c69-71d6-4a67-aef2-60bd8c838a2d")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom Parts:IV-11_VFD_Tube")
+		(at 66.04 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e490d84-e6f3-407d-a9b8-6eaa22f0b652")
+		(property "Reference" "U12"
+			(at 71.12 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IV-11 VFD Tube"
+			(at 71.12 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "8bc4cf84-2f8c-479f-b8dc-17f9f76004be")
+		)
+		(pin "3"
+			(uuid "fbb91cc7-775a-4b30-8ac3-51bae7ad719e")
+		)
+		(pin "5"
+			(uuid "182f28d6-129b-4804-8349-fd0a571d60ec")
+		)
+		(pin "2"
+			(uuid "6b4dd8c2-f064-4583-8381-5a36ff1ad0c3")
+		)
+		(pin "8"
+			(uuid "dee34ab8-d3cb-4434-878c-2d54c5ce269c")
+		)
+		(pin "4"
+			(uuid "7d128432-3d13-4f25-974f-9b0a2fb70e8c")
+		)
+		(pin "6"
+			(uuid "02f14552-9508-4590-a6ba-52d9edb41785")
+		)
+		(pin "11"
+			(uuid "155cf883-e16e-4715-aad0-fdb07b061882")
+		)
+		(pin "10"
+			(uuid "ef68c87d-475a-41e1-8e40-5a8bc176d369")
+		)
+		(pin "1"
+			(uuid "b325d4dc-b26f-4ff0-8949-363a6a3314ec")
+		)
+		(pin "9"
+			(uuid "6bf0a907-2036-40f8-aa7b-b57187b091a5")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -2090,7 +2559,7 @@
 	)
 	(symbol
 		(lib_id "UDN2981A:UDN2981A")
-		(at 132.08 124.46 0)
+		(at 189.23 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2101,7 +2570,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6f1150-fbec-40dd-b185-c0a12b8330ff")
 		(property "Reference" "U8"
-			(at 132.08 104.14 0)
+			(at 189.23 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2111,7 +2580,7 @@
 			)
 		)
 		(property "Value" "UDN2981A"
-			(at 132.08 106.68 0)
+			(at 189.23 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2121,7 +2590,7 @@
 			)
 		)
 		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2133,7 +2602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2613,7 @@
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2625,7 @@
 			)
 		)
 		(property "MF" "AMD"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +2637,7 @@
 			)
 		)
 		(property "PACKAGE" "PDIP-18"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2180,7 +2649,7 @@
 			)
 		)
 		(property "MPN" "UDN2981A"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2192,7 +2661,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2204,7 +2673,7 @@
 			)
 		)
 		(property "Package" "DIP-18 AMD"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,7 +2685,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1193495"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2228,7 +2697,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2240,7 +2709,7 @@
 			)
 		)
 		(property "MP" "UDN2981A"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2721,7 @@
 			)
 		)
 		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2264,7 +2733,7 @@
 			)
 		)
 		(property "OC_NEWARK" "31K7841"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,7 +2745,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2288,7 +2757,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 132.08 124.46 0)
+			(at 189.23 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2363,8 +2832,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IV-11 VFD Tube:IV-11_VFD_Tube")
-		(at 199.39 38.1 0)
+		(lib_id "Custom Parts:IV-11_VFD_Tube")
+		(at 146.05 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2373,9 +2842,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "561b335e-1cdd-4c89-bd62-8256ea6c9a7b")
-		(property "Reference" "U17"
-			(at 204.47 27.94 0)
+		(uuid "453308eb-f7f4-4700-b465-04635468594d")
+		(property "Reference" "U15"
+			(at 151.13 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2385,7 +2854,7 @@
 			)
 		)
 		(property "Value" "IV-11 VFD Tube"
-			(at 204.47 30.48 0)
+			(at 151.13 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2394,8 +2863,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 199.39 38.1 0)
+		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
+			(at 146.05 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 199.39 38.1 0)
+			(at 146.05 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2416,8 +2885,8 @@
 				)
 			)
 		)
-		(property "Description" "Vintage USSR IV-11 VFD Tube"
-			(at 204.47 38.1 0)
+		(property "Description" ""
+			(at 146.05 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,42 +2897,149 @@
 			)
 		)
 		(pin "7"
-			(uuid "df24c8c7-e8ef-4a3a-b695-a0891e2d4c03")
-		)
-		(pin "5"
-			(uuid "972f7c2b-8ce6-4fed-92f6-4c127b945265")
-		)
-		(pin "1"
-			(uuid "61f59ab6-c250-459a-829f-9df78346ecba")
-		)
-		(pin "2"
-			(uuid "3880013f-8cdf-4002-a8ed-39b52aefc4d2")
-		)
-		(pin "4"
-			(uuid "14fb3e14-267a-4993-bfa0-60772ad3e971")
-		)
-		(pin "8"
-			(uuid "0d196b17-a306-4748-b682-5bfb22dc5d8d")
-		)
-		(pin "9"
-			(uuid "d611773e-3f65-43e7-92c1-460565acc521")
-		)
-		(pin "11"
-			(uuid "64e413b5-3079-45ee-b3a5-0ea0e4b1c31d")
+			(uuid "98f615c7-6b59-4e3f-b701-64c6fb2563c4")
 		)
 		(pin "3"
-			(uuid "17cb4627-3f6e-4104-8299-c46e6d99da64")
+			(uuid "9b10dff0-779b-440b-ab65-d7fbaf2da95a")
+		)
+		(pin "5"
+			(uuid "3fd88840-3d61-410b-abca-b7148fcdc5a5")
+		)
+		(pin "2"
+			(uuid "86ea2743-b43f-4041-bda8-b8372f902123")
+		)
+		(pin "8"
+			(uuid "ca889c75-50f6-45af-a910-46f098e09efb")
+		)
+		(pin "4"
+			(uuid "8541bb48-abcf-4477-81ef-7f4e5c5d5f90")
 		)
 		(pin "6"
-			(uuid "f5e5fade-8015-4877-a8de-58649b1f51f2")
+			(uuid "3d5b5da9-52dd-4d58-a8ba-320977509ab7")
+		)
+		(pin "11"
+			(uuid "58b62fb1-1011-4b60-9c38-4bdb722ca488")
 		)
 		(pin "10"
-			(uuid "763a9b01-2e2a-44df-87db-8fd2afdd8e1f")
+			(uuid "40b4dd75-23d2-41ad-8c4b-1787b64be2f6")
+		)
+		(pin "1"
+			(uuid "a0eee3c5-5fb5-4b32-b60c-6dddc82d761e")
+		)
+		(pin "9"
+			(uuid "d6f48550-1d56-4c0f-aea5-5866cd14d09a")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U17")
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom Parts:IV-11_VFD_Tube")
+		(at 175.26 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "583cfe8e-e94c-468a-9081-9e5ef0aadbfb")
+		(property "Reference" "U16"
+			(at 180.34 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IV-11 VFD Tube"
+			(at 180.34 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
+			(at 175.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
+			(at 175.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "3b810ea2-c931-41fd-b00b-b95bf037dec9")
+		)
+		(pin "3"
+			(uuid "4f3e33fa-781d-4d57-b4c1-5ad7f478d4a6")
+		)
+		(pin "5"
+			(uuid "24ccfedd-006d-4df1-a7f2-fa6ed7bd6d03")
+		)
+		(pin "2"
+			(uuid "4c138fb2-c755-4523-a186-0d140f650153")
+		)
+		(pin "8"
+			(uuid "96410822-9283-428c-a171-e1c46e61dc3e")
+		)
+		(pin "4"
+			(uuid "407293ec-38e5-44e5-bbe4-bc40fd61b88d")
+		)
+		(pin "6"
+			(uuid "65a38b2f-9673-4079-9db0-a027e470b356")
+		)
+		(pin "11"
+			(uuid "f3955245-4be5-4c49-b21e-2f42341e45a0")
+		)
+		(pin "10"
+			(uuid "62f4b7fc-ba44-4fbc-908f-1908021dc17e")
+		)
+		(pin "1"
+			(uuid "f812add5-14c9-4932-9d3f-0de5cf91c3ac")
+		)
+		(pin "9"
+			(uuid "9f4feefe-1681-48ea-b378-21643ceb7667")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -2471,7 +3047,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC595")
-		(at 100.33 81.28 0)
+		(at 101.6 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2482,7 +3058,7 @@
 		(fields_autoplaced yes)
 		(uuid "74e1b756-91d7-4a7d-9e33-64604b2c0c96")
 		(property "Reference" "U2"
-			(at 102.4733 63.5 0)
+			(at 103.7433 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2493,7 +3069,7 @@
 			)
 		)
 		(property "Value" "74HC595"
-			(at 102.4733 66.04 0)
+			(at 103.7433 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2504,7 +3080,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 100.33 81.28 0)
+			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +3091,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 100.33 81.28 0)
+			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +3102,7 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 100.33 81.28 0)
+			(at 101.6 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,6 +3164,113 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom Parts:IV-11_VFD_Tube")
+		(at 198.12 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "915f86a8-097b-4110-8b75-ec721491b182")
+		(property "Reference" "U17"
+			(at 203.2 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IV-11 VFD Tube"
+			(at 203.2 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
+			(at 198.12 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
+			(at 198.12 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "49756d64-6155-41ba-93e4-a664066c1b24")
+		)
+		(pin "3"
+			(uuid "eda25b3f-5924-4a21-9288-1d74153f620f")
+		)
+		(pin "5"
+			(uuid "28297e19-7af3-400d-9fb3-f0d148c43c1e")
+		)
+		(pin "2"
+			(uuid "f64871f9-8326-409e-920e-d83ad2c8ae11")
+		)
+		(pin "8"
+			(uuid "156cb369-c91c-4392-a49c-d0be923e64de")
+		)
+		(pin "4"
+			(uuid "5a56fed2-64bb-424e-81ff-a2ecc2a22ac0")
+		)
+		(pin "6"
+			(uuid "324cefcb-bfbd-4d2b-b4de-89d58ed5f882")
+		)
+		(pin "11"
+			(uuid "4eec7288-694c-4c85-b3c2-c8e80c213436")
+		)
+		(pin "10"
+			(uuid "ea087876-8721-43bb-809f-4bf10b301f37")
+		)
+		(pin "1"
+			(uuid "bd62f003-199a-4dcd-bb4f-a6dfb222bae0")
+		)
+		(pin "9"
+			(uuid "45fec7fb-3d02-4a68-8c26-dd72e788d358")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -2712,113 +3395,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IV-11 VFD Tube:IV-11_VFD_Tube")
-		(at 68.58 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bf6157a-bd1d-4866-9295-0051df7fa8a1")
-		(property "Reference" "U12"
-			(at 73.66 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 73.66 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 68.58 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Vintage USSR IV-11 VFD Tube"
-			(at 73.66 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "444fe76c-1932-41e1-a8ef-858dfa8eb51c")
-		)
-		(pin "5"
-			(uuid "ed9f3505-6cf5-412f-bf4a-56ccff3b0f59")
-		)
-		(pin "1"
-			(uuid "843d4dee-3624-493c-87b0-aac6d77af75e")
-		)
-		(pin "2"
-			(uuid "cae863fe-1e73-4262-a54c-7c212ceace2c")
-		)
-		(pin "4"
-			(uuid "8c63d38d-b5d9-43b7-aaa5-4036e4705ae5")
-		)
-		(pin "8"
-			(uuid "685ce682-e2b8-4349-94e3-38c55ab413d8")
-		)
-		(pin "9"
-			(uuid "0ed42fc0-6dec-406b-9dc8-f010adf06c6b")
-		)
-		(pin "11"
-			(uuid "66638ccc-1685-440f-bdbf-974dfecc44f2")
-		)
-		(pin "3"
-			(uuid "815af438-345e-479b-ac6a-a2558f308fd7")
-		)
-		(pin "6"
-			(uuid "64241d52-9591-40de-b2f7-d236ff033318")
-		)
-		(pin "10"
-			(uuid "bcdd5c7a-949c-4689-a976-6091595a4cb2")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -2950,7 +3526,7 @@
 	)
 	(symbol
 		(lib_id "UDN2981A:UDN2981A")
-		(at 173.99 124.46 0)
+		(at 234.95 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2961,7 +3537,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e3b3afc-6938-480b-bee5-ee858ef8a16f")
 		(property "Reference" "U9"
-			(at 173.99 104.14 0)
+			(at 234.95 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2971,7 +3547,7 @@
 			)
 		)
 		(property "Value" "UDN2981A"
-			(at 173.99 106.68 0)
+			(at 234.95 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2981,7 +3557,7 @@
 			)
 		)
 		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2993,7 +3569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3004,7 +3580,7 @@
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3016,7 +3592,7 @@
 			)
 		)
 		(property "MF" "AMD"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,7 +3604,7 @@
 			)
 		)
 		(property "PACKAGE" "PDIP-18"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +3616,7 @@
 			)
 		)
 		(property "MPN" "UDN2981A"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3052,7 +3628,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3064,7 +3640,7 @@
 			)
 		)
 		(property "Package" "DIP-18 AMD"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3652,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1193495"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3088,7 +3664,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,7 +3676,7 @@
 			)
 		)
 		(property "MP" "UDN2981A"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3112,7 +3688,7 @@
 			)
 		)
 		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,7 +3700,7 @@
 			)
 		)
 		(property "OC_NEWARK" "31K7841"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3136,7 +3712,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +3724,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 173.99 124.46 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3223,8 +3799,8 @@
 		)
 	)
 	(symbol
-		(lib_id "IV-11 VFD Tube:IV-11_VFD_Tube")
-		(at 152.4 34.29 0)
+		(lib_id "power:GND")
+		(at 38.1 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3233,9 +3809,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f7bf3f0-88a7-45e2-8dab-7fa8411fa69d")
-		(property "Reference" "U15"
-			(at 157.48 24.13 0)
+		(uuid "bf8237b7-cfa7-4434-abe0-6ccb084a1b2c")
+		(property "Reference" "#PWR02"
+			(at 38.1 190.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3244,8 +3821,8 @@
 				)
 			)
 		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 157.48 26.67 0)
+		(property "Value" "GND"
+			(at 38.1 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3255,7 +3832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 34.29 0)
+			(at 38.1 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3265,8 +3842,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 152.4 34.29 0)
+		(property "Datasheet" ""
+			(at 38.1 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3276,8 +3853,8 @@
 				)
 			)
 		)
-		(property "Description" "Vintage USSR IV-11 VFD Tube"
-			(at 157.48 34.29 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,151 +3863,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "7"
-			(uuid "36e31a2e-538d-43a1-98da-2c580c44ed91")
-		)
-		(pin "5"
-			(uuid "dcc7d4ae-6d8e-46b5-888e-5b05754163d9")
 		)
 		(pin "1"
-			(uuid "d77f6372-ce53-4f2b-9f52-5cd7c6e8642a")
-		)
-		(pin "2"
-			(uuid "471e57f1-c4f1-484c-8d35-ba1935aa0f0b")
-		)
-		(pin "4"
-			(uuid "135eab8d-efc9-43d0-a0b8-40fbc5fa382c")
-		)
-		(pin "8"
-			(uuid "6d7f9c8d-3e16-44a1-a6de-7f66a8f44401")
-		)
-		(pin "9"
-			(uuid "3c5e6c41-4031-460b-ab4c-f6c4dfb5bde9")
-		)
-		(pin "11"
-			(uuid "02ddb0eb-4e6f-48b9-adb0-068b15a0b5a7")
-		)
-		(pin "3"
-			(uuid "5e97a844-77d9-45c9-a643-14ee0922fbfe")
-		)
-		(pin "6"
-			(uuid "5785897a-e04f-433d-9717-acabf3802824")
-		)
-		(pin "10"
-			(uuid "0555d109-4cb8-4868-99ce-0e2e49443c13")
+			(uuid "b46f3a57-6cc5-44fa-85d8-afd928f58775")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IV-11 VFD Tube:IV-11_VFD_Tube")
-		(at 95.25 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b78782c5-d113-4a6b-a8a6-c68c39d887ae")
-		(property "Reference" "U13"
-			(at 100.33 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 100.33 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 95.25 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Vintage USSR IV-11 VFD Tube"
-			(at 100.33 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "f5d0e495-0efc-44be-bfaa-eab729f2b5d9")
-		)
-		(pin "5"
-			(uuid "b0ca6d19-de45-4f74-9cc9-f59f19973a14")
-		)
-		(pin "1"
-			(uuid "1cf21ed1-7a48-49cc-9b21-91aa64f9fbd0")
-		)
-		(pin "2"
-			(uuid "e4ba6d50-176c-4a39-a57f-4f6b9c7f8742")
-		)
-		(pin "4"
-			(uuid "8b17cf7f-5875-4e4b-8d7a-62d3c596500b")
-		)
-		(pin "8"
-			(uuid "b89d2961-4b86-4e77-b59c-7c7dec896aea")
-		)
-		(pin "9"
-			(uuid "4e09021c-4299-432a-96be-f1b5330fa7e1")
-		)
-		(pin "11"
-			(uuid "d2529766-7a06-449a-a32b-81ed341123a0")
-		)
-		(pin "3"
-			(uuid "99eef364-8807-4d7f-8306-dcf3c86cedfc")
-		)
-		(pin "6"
-			(uuid "042ff77f-f3ae-468e-b8ef-c2390cf77522")
-		)
-		(pin "10"
-			(uuid "1087ad49-ce61-49a6-b213-2f063e6e0ef3")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U13")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3438,7 +3878,7 @@
 	)
 	(symbol
 		(lib_id "UDN2981A:UDN2981A")
-		(at 213.36 124.46 0)
+		(at 274.32 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3449,7 +3889,7 @@
 		(fields_autoplaced yes)
 		(uuid "d283c896-0be8-4fcd-8ed9-b7911b0a9df3")
 		(property "Reference" "U10"
-			(at 213.36 104.14 0)
+			(at 274.32 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3459,7 +3899,7 @@
 			)
 		)
 		(property "Value" "UDN2981A"
-			(at 213.36 106.68 0)
+			(at 274.32 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3469,7 +3909,7 @@
 			)
 		)
 		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3481,7 +3921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,7 +3932,7 @@
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3504,7 +3944,7 @@
 			)
 		)
 		(property "MF" "AMD"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,7 +3956,7 @@
 			)
 		)
 		(property "PACKAGE" "PDIP-18"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3968,7 @@
 			)
 		)
 		(property "MPN" "UDN2981A"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3540,7 +3980,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +3992,7 @@
 			)
 		)
 		(property "Package" "DIP-18 AMD"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3564,7 +4004,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1193495"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3576,7 +4016,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,7 +4028,7 @@
 			)
 		)
 		(property "MP" "UDN2981A"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3600,7 +4040,7 @@
 			)
 		)
 		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3612,7 +4052,7 @@
 			)
 		)
 		(property "OC_NEWARK" "31K7841"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +4064,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3636,7 +4076,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 213.36 124.46 0)
+			(at 274.32 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,7 +4152,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_Nano_Every")
-		(at 44.45 127 0)
+		(at 38.1 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3723,7 +4163,7 @@
 		(fields_autoplaced yes)
 		(uuid "d60ceb6b-22ef-4d22-86c5-b1f509c6c0e7")
 		(property "Reference" "A1"
-			(at 46.5933 152.4 0)
+			(at 40.2433 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3734,7 +4174,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_Every"
-			(at 46.5933 154.94 0)
+			(at 40.2433 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3745,7 +4185,7 @@
 			)
 		)
 		(property "Footprint" "Module:Arduino_Nano"
-			(at 44.45 127 0)
+			(at 38.1 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3757,7 +4197,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf"
-			(at 44.45 127 0)
+			(at 38.1 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +4208,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano Every"
-			(at 44.45 127 0)
+			(at 38.1 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3872,113 +4312,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "IV-11 VFD Tube:IV-11_VFD_Tube")
-		(at 127 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e20e38e6-b3ee-454c-977f-bda070439c89")
-		(property "Reference" "U14"
-			(at 132.08 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 132.08 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 127 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Vintage USSR IV-11 VFD Tube"
-			(at 132.08 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "ef348898-d7d1-430f-a822-42326b59df5e")
-		)
-		(pin "5"
-			(uuid "8b36ca32-1179-4055-b374-5bfb593291d9")
-		)
-		(pin "1"
-			(uuid "622645cf-75d1-4ae2-8398-44fe41a0396c")
-		)
-		(pin "2"
-			(uuid "c11e86c5-bc59-4079-a53f-f055663b9655")
-		)
-		(pin "4"
-			(uuid "bfe21033-47ff-48d6-8b60-9f4155908898")
-		)
-		(pin "8"
-			(uuid "a47009e0-ee25-45b1-b1c9-30d4e6609738")
-		)
-		(pin "9"
-			(uuid "e44c4a05-6042-47e2-b254-1ed08bff7a16")
-		)
-		(pin "11"
-			(uuid "1c15da6a-cfe1-4461-9ec3-3452ddf4b974")
-		)
-		(pin "3"
-			(uuid "9caf61c1-18a5-4a7d-8232-8e9a2fa3baca")
-		)
-		(pin "6"
-			(uuid "6174f1e0-87ca-4517-9223-569a79060f18")
-		)
-		(pin "10"
-			(uuid "e60793ab-e272-40bd-823e-68d5255db65a")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -4110,7 +4443,7 @@
 	)
 	(symbol
 		(lib_id "UDN2981A:UDN2981A")
-		(at 91.44 124.46 0)
+		(at 149.86 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4121,7 +4454,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8492553-4519-42f9-83e1-c9b7711948d1")
 		(property "Reference" "U7"
-			(at 91.44 104.14 0)
+			(at 149.86 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4131,7 +4464,7 @@
 			)
 		)
 		(property "Value" "UDN2981A"
-			(at 91.44 106.68 0)
+			(at 149.86 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4141,7 +4474,7 @@
 			)
 		)
 		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4164,7 +4497,7 @@
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4176,7 +4509,7 @@
 			)
 		)
 		(property "MF" "AMD"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4188,7 +4521,7 @@
 			)
 		)
 		(property "PACKAGE" "PDIP-18"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4200,7 +4533,7 @@
 			)
 		)
 		(property "MPN" "UDN2981A"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4212,7 +4545,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4224,7 +4557,7 @@
 			)
 		)
 		(property "Package" "DIP-18 AMD"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +4569,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1193495"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4248,7 +4581,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4260,7 +4593,7 @@
 			)
 		)
 		(property "MP" "UDN2981A"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4272,7 +4605,7 @@
 			)
 		)
 		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4284,7 +4617,7 @@
 			)
 		)
 		(property "OC_NEWARK" "31K7841"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4296,7 +4629,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4641,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 91.44 124.46 0)
+			(at 149.86 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4508,7 +4841,7 @@
 	)
 	(symbol
 		(lib_id "UDN2981A:UDN2981A")
-		(at 254 124.46 0)
+		(at 274.32 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4519,7 +4852,7 @@
 		(fields_autoplaced yes)
 		(uuid "f307a7e5-82bb-4b78-a47e-69ffbb695b34")
 		(property "Reference" "U11"
-			(at 254 104.14 0)
+			(at 274.32 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4529,7 +4862,7 @@
 			)
 		)
 		(property "Value" "UDN2981A"
-			(at 254 106.68 0)
+			(at 274.32 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4539,7 +4872,7 @@
 			)
 		)
 		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4551,7 +4884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4562,7 +4895,7 @@
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4574,7 +4907,7 @@
 			)
 		)
 		(property "MF" "AMD"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4586,7 +4919,7 @@
 			)
 		)
 		(property "PACKAGE" "PDIP-18"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4598,7 +4931,7 @@
 			)
 		)
 		(property "MPN" "UDN2981A"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,7 +4943,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,7 +4955,7 @@
 			)
 		)
 		(property "Package" "DIP-18 AMD"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4967,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1193495"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4646,7 +4979,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4658,7 +4991,7 @@
 			)
 		)
 		(property "MP" "UDN2981A"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4670,7 +5003,7 @@
 			)
 		)
 		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,7 +5015,7 @@
 			)
 		)
 		(property "OC_NEWARK" "31K7841"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4694,7 +5027,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4706,7 +5039,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 254 124.46 0)
+			(at 274.32 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4775,6 +5108,84 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f738b738-6ab6-4481-b32b-13c701ad4a93")
+		(property "Reference" "#PWR01"
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 43.18 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "129edcd9-2c3c-4772-b36b-a77fae82fb41")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

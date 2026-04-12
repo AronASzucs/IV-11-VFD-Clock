@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 4.826 8.636 0)
+			(at 0.762 8.128 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "IV-11 VFD Tube"
-			(at 5.334 6.35 0)
+			(at 7.874 6.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50,18 +50,7 @@
 				)
 			)
 		)
-		(property "Description" "Vintage USSR IV-11 VFD Tube"
-			(at 5.08 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "VFD, IV-11"
+		(property "Description" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,7 +76,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -17.78) (xy 0 -13.97)
+					(xy 0 -13.97) (xy 0 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -145,10 +134,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 10.16 0) (xy 10.16 -13.97)
-				)
+			(arc
+				(start 6.35 -10.16)
+				(mid 7.0939 -8.3639)
+				(end 8.89 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -158,21 +147,9 @@
 				)
 			)
 			(arc
-				(start 7.62 -10.16)
-				(mid 8.3639 -8.3639)
-				(end 10.16 -7.62)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 10.16 -12.7)
-				(mid 8.3639 -11.9561)
-				(end 7.62 -10.16)
+				(start 8.89 -12.7)
+				(mid 7.0939 -11.9561)
+				(end 6.35 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -183,7 +160,31 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -17.78) (xy 10.16 -13.97)
+					(xy 10.16 0) (xy 10.16 -17.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -7.62) (xy 8.89 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -12.7) (xy 8.89 -12.7)
 				)
 				(stroke
 					(width 0)
