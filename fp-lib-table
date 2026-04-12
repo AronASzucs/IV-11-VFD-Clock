@@ -1,0 +1,12 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/IV-11 VFD Tube.pretty") (options "") (descr ""))
+)
