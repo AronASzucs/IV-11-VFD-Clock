@@ -1981,6 +1981,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2236,9 +2375,89 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 41.91 44.45) (xy 45.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229c19f5-5b7f-4fad-987d-b790b2d03b9b")
+	)
+	(wire
+		(pts
+			(xy 41.91 39.37) (xy 45.72 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297466d0-9794-4083-9227-4e144a2544b2")
+	)
+	(wire
+		(pts
+			(xy 41.91 52.07) (xy 45.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e76fc6-f192-4d93-89ed-292633cd64b2")
+	)
+	(wire
+		(pts
+			(xy 41.91 46.99) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8e43fe-8a93-4f60-b3aa-8480d6791b73")
+	)
+	(wire
+		(pts
+			(xy 41.91 49.53) (xy 45.72 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c649faae-57ba-44f2-a99a-7ede53bf887d")
+	)
+	(wire
+		(pts
+			(xy 41.91 41.91) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2071eee-6cda-4d12-b8a9-c862dd558da3")
+	)
+	(wire
+		(pts
+			(xy 41.91 36.83) (xy 45.72 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ef2a02-67b1-4b61-b76d-c199987f1a80")
+	)
+	(wire
+		(pts
+			(xy 41.91 34.29) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1ae9cc-461d-420f-ae09-68517b2a9766")
+	)
 	(symbol
-		(lib_id "Custom Parts:IV-11_VFD_Tube")
-		(at 120.65 29.21 0)
+		(lib_id "power:GND")
+		(at 31.75 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2247,29 +2466,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f7a21ea-0240-4d6b-88d4-9e945cc122d5")
-		(property "Reference" "U14"
-			(at 125.73 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 125.73 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
-			(at 120.65 29.21 0)
+		(uuid "0ac31833-6ef4-4a80-831e-7785d5b58aee")
+		(property "Reference" "#PWR05"
+			(at 31.75 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2279,8 +2478,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 120.65 29.21 0)
+		(property "Value" "GND"
+			(at 31.75 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2290,8 +2499,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 120.65 29.21 0)
+		(property "Datasheet" ""
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2301,51 +2510,32 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "b243686b-2f9e-4ef0-9747-a566e909ad23")
-		)
-		(pin "3"
-			(uuid "64ae970a-49f6-4243-bd89-03679ec7ed06")
-		)
-		(pin "5"
-			(uuid "53061fc1-dfb1-45eb-8b14-37c8958b13b6")
-		)
-		(pin "2"
-			(uuid "3812728c-f1b0-4d50-946a-1446260a875c")
-		)
-		(pin "8"
-			(uuid "883dcb2a-1384-444b-94a0-582c2f704628")
-		)
-		(pin "4"
-			(uuid "687eb83f-eae5-468c-aa82-22fd682693a4")
-		)
-		(pin "6"
-			(uuid "8994abe3-984a-469c-85f3-f9e8706d8fec")
-		)
-		(pin "11"
-			(uuid "24973219-9d1c-45d4-836a-385658bdd777")
-		)
-		(pin "10"
-			(uuid "ba6ee1f6-765d-46d0-9783-c541bd586317")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "382ff23c-f808-4b00-9b83-c998a680d3c7")
-		)
-		(pin "9"
-			(uuid "cb24474a-5efd-4d3a-a802-da16725f92db")
+			(uuid "88061d1f-8363-4249-a0f0-4e4cc8cbdd46")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U14")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Custom Parts:IV-11_VFD_Tube")
-		(at 92.71 27.94 0)
+		(lib_id "power:+24V")
+		(at 45.72 29.21 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2354,29 +2544,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "18e7a109-8a16-4f8f-bc98-7313cb0f7428")
-		(property "Reference" "U13"
-			(at 97.79 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 97.79 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
-			(at 92.71 27.94 0)
+		(uuid "1c2aea09-ddba-418c-b1dc-0d0d9d2f008e")
+		(property "Reference" "#PWR03"
+			(at 49.53 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2386,8 +2556,19 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 92.71 27.94 0)
+		(property "Value" "+25V"
+			(at 41.91 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2397,8 +2578,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 27.94 0)
+		(property "Datasheet" ""
+			(at 45.72 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2408,43 +2589,24 @@
 				)
 			)
 		)
-		(pin "7"
-			(uuid "f1e7595a-3f45-4586-9445-0538a0f23718")
-		)
-		(pin "3"
-			(uuid "f9bfa44e-e050-40ba-ac2e-963568904e69")
-		)
-		(pin "5"
-			(uuid "52f12bda-0620-4502-86c3-687e2f73e380")
-		)
-		(pin "2"
-			(uuid "81732b7c-28db-432b-b9d4-c9c2433d09a7")
-		)
-		(pin "8"
-			(uuid "05ec76b4-6f9a-4da6-97f9-37f267a03820")
-		)
-		(pin "4"
-			(uuid "5476400e-fec7-4517-8ab4-b497a437225e")
-		)
-		(pin "6"
-			(uuid "b5ac351f-48b1-4ae9-a10c-bfd104130d58")
-		)
-		(pin "11"
-			(uuid "c7ed2605-f0cc-4337-b373-eea437aed92b")
-		)
-		(pin "10"
-			(uuid "e8b688e2-4410-4180-8133-1e96101852c4")
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "86b1a7f5-d6a1-41bf-a318-302f5e54e463")
-		)
-		(pin "9"
-			(uuid "44201c69-71d6-4a67-aef2-60bd8c838a2d")
+			(uuid "b187d391-3608-4e4a-ba88-b93e60edfd5f")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U13")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2452,7 +2614,7 @@
 	)
 	(symbol
 		(lib_id "Custom Parts:IV-11_VFD_Tube")
-		(at 66.04 27.94 0)
+		(at 83.82 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2462,8 +2624,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e490d84-e6f3-407d-a9b8-6eaa22f0b652")
-		(property "Reference" "U12"
-			(at 71.12 17.78 0)
+		(property "Reference" "U3"
+			(at 88.9 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2473,7 +2635,7 @@
 			)
 		)
 		(property "Value" "IV-11 VFD Tube"
-			(at 71.12 20.32 0)
+			(at 88.9 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2483,7 +2645,7 @@
 			)
 		)
 		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
-			(at 66.04 27.94 0)
+			(at 83.82 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,7 +2656,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 66.04 27.94 0)
+			(at 83.82 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,7 +2667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 27.94 0)
+			(at 83.82 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2551,973 +2713,6 @@
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 189.23 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c6f1150-fbec-40dd-b185-c0a12b8330ff")
-		(property "Reference" "U8"
-			(at 189.23 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 189.23 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMD"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 189.23 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "c2592a3e-34b8-48e2-ad5a-43539866045c")
-		)
-		(pin "10"
-			(uuid "6faed15d-e1f5-4823-9223-e1acacd9560a")
-		)
-		(pin "15"
-			(uuid "510131df-fb77-452a-a932-f09515ba9e4a")
-		)
-		(pin "4"
-			(uuid "a7d7082f-743d-428f-82d9-ab4bbfe6f76a")
-		)
-		(pin "7"
-			(uuid "30a3249b-8aaf-4b55-8a25-1a718735195c")
-		)
-		(pin "9"
-			(uuid "ba023bb1-0d75-4867-9216-16d0733486cd")
-		)
-		(pin "11"
-			(uuid "7d7e256d-a17d-449a-9367-ac7672ceef52")
-		)
-		(pin "14"
-			(uuid "17c75540-e1b1-4b7f-99bd-e369266e41c3")
-		)
-		(pin "17"
-			(uuid "dfb1c095-7d00-425f-b233-fa736fdae6e1")
-		)
-		(pin "18"
-			(uuid "6f8a1a24-9020-4780-8f65-3cbaec5d83b5")
-		)
-		(pin "5"
-			(uuid "524f5a61-7b65-4633-b068-32cb00cfe872")
-		)
-		(pin "1"
-			(uuid "6daa03dd-e170-491d-a925-c3f36866060d")
-		)
-		(pin "2"
-			(uuid "6b6fcee0-9307-4743-934c-d6ce39f1fddb")
-		)
-		(pin "6"
-			(uuid "be0b3a47-e469-475e-8523-deacfc15f0d7")
-		)
-		(pin "3"
-			(uuid "545164fa-0575-4e8a-abe9-52b4164c71ec")
-		)
-		(pin "12"
-			(uuid "11ee655c-18e9-4f18-ba3b-1bb63b6c5aa8")
-		)
-		(pin "13"
-			(uuid "c1a451b3-87ea-4250-87f9-4acaafc38c6e")
-		)
-		(pin "16"
-			(uuid "a1a6747d-05b2-4afb-8956-49405acbff68")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom Parts:IV-11_VFD_Tube")
-		(at 146.05 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "453308eb-f7f4-4700-b465-04635468594d")
-		(property "Reference" "U15"
-			(at 151.13 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 151.13 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
-			(at 146.05 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 146.05 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "98f615c7-6b59-4e3f-b701-64c6fb2563c4")
-		)
-		(pin "3"
-			(uuid "9b10dff0-779b-440b-ab65-d7fbaf2da95a")
-		)
-		(pin "5"
-			(uuid "3fd88840-3d61-410b-abca-b7148fcdc5a5")
-		)
-		(pin "2"
-			(uuid "86ea2743-b43f-4041-bda8-b8372f902123")
-		)
-		(pin "8"
-			(uuid "ca889c75-50f6-45af-a910-46f098e09efb")
-		)
-		(pin "4"
-			(uuid "8541bb48-abcf-4477-81ef-7f4e5c5d5f90")
-		)
-		(pin "6"
-			(uuid "3d5b5da9-52dd-4d58-a8ba-320977509ab7")
-		)
-		(pin "11"
-			(uuid "58b62fb1-1011-4b60-9c38-4bdb722ca488")
-		)
-		(pin "10"
-			(uuid "40b4dd75-23d2-41ad-8c4b-1787b64be2f6")
-		)
-		(pin "1"
-			(uuid "a0eee3c5-5fb5-4b32-b60c-6dddc82d761e")
-		)
-		(pin "9"
-			(uuid "d6f48550-1d56-4c0f-aea5-5866cd14d09a")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom Parts:IV-11_VFD_Tube")
-		(at 175.26 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "583cfe8e-e94c-468a-9081-9e5ef0aadbfb")
-		(property "Reference" "U16"
-			(at 180.34 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 180.34 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
-			(at 175.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 175.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "3b810ea2-c931-41fd-b00b-b95bf037dec9")
-		)
-		(pin "3"
-			(uuid "4f3e33fa-781d-4d57-b4c1-5ad7f478d4a6")
-		)
-		(pin "5"
-			(uuid "24ccfedd-006d-4df1-a7f2-fa6ed7bd6d03")
-		)
-		(pin "2"
-			(uuid "4c138fb2-c755-4523-a186-0d140f650153")
-		)
-		(pin "8"
-			(uuid "96410822-9283-428c-a171-e1c46e61dc3e")
-		)
-		(pin "4"
-			(uuid "407293ec-38e5-44e5-bbe4-bc40fd61b88d")
-		)
-		(pin "6"
-			(uuid "65a38b2f-9673-4079-9db0-a027e470b356")
-		)
-		(pin "11"
-			(uuid "f3955245-4be5-4c49-b21e-2f42341e45a0")
-		)
-		(pin "10"
-			(uuid "62f4b7fc-ba44-4fbc-908f-1908021dc17e")
-		)
-		(pin "1"
-			(uuid "f812add5-14c9-4932-9d3f-0de5cf91c3ac")
-		)
-		(pin "9"
-			(uuid "9f4feefe-1681-48ea-b378-21643ceb7667")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC595")
-		(at 101.6 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74e1b756-91d7-4a7d-9e33-64604b2c0c96")
-		(property "Reference" "U2"
-			(at 103.7433 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC595"
-			(at 103.7433 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 101.6 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 101.6 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 101.6 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "38504128-4139-4a40-9abb-96e6eef6da3c")
-		)
-		(pin "3"
-			(uuid "c97756fc-74c9-463b-b620-86defa7ed3a4")
-		)
-		(pin "4"
-			(uuid "69fb0f11-3ec0-437e-98ec-fd1a8cca30e2")
-		)
-		(pin "5"
-			(uuid "84f484d8-61d4-4007-be05-16ca4b48b2aa")
-		)
-		(pin "2"
-			(uuid "ac5009b9-5a2f-4c0d-959e-9935f4a1f088")
-		)
-		(pin "1"
-			(uuid "0a7a8baa-f8a2-4e64-b4fa-42ea3e1c225b")
-		)
-		(pin "6"
-			(uuid "7fe4d043-a500-4f03-bc9b-429581d42014")
-		)
-		(pin "7"
-			(uuid "e7494cb9-340b-4940-a0e6-3bfc743233f0")
-		)
-		(pin "8"
-			(uuid "a01761b9-3ec7-49d9-85d7-b052e2e891d9")
-		)
-		(pin "9"
-			(uuid "2a1151ed-636f-47d0-b0c1-463bd419a465")
-		)
-		(pin "13"
-			(uuid "e0ed5c96-306c-4464-a5ea-160383679f1c")
-		)
-		(pin "12"
-			(uuid "322aa8e6-39b5-454c-8e22-bfbf7fad6216")
-		)
-		(pin "14"
-			(uuid "6a3566a8-801d-4d20-bb72-240e931067f8")
-		)
-		(pin "15"
-			(uuid "e5bf6f31-630c-4486-81d7-44752a3d912b")
-		)
-		(pin "16"
-			(uuid "01389cd8-ae1f-47b0-869f-2199527c3891")
-		)
-		(pin "11"
-			(uuid "8565f932-b767-4c63-9064-7921b3ada371")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom Parts:IV-11_VFD_Tube")
-		(at 198.12 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "915f86a8-097b-4110-8b75-ec721491b182")
-		(property "Reference" "U17"
-			(at 203.2 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IV-11 VFD Tube"
-			(at 203.2 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Custom Parts:IV-11 VFD Tube"
-			(at 198.12 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tube-tester.com/sites/nixie/dat_arch/IV-11_2.pdf"
-			(at 198.12 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "49756d64-6155-41ba-93e4-a664066c1b24")
-		)
-		(pin "3"
-			(uuid "eda25b3f-5924-4a21-9288-1d74153f620f")
-		)
-		(pin "5"
-			(uuid "28297e19-7af3-400d-9fb3-f0d148c43c1e")
-		)
-		(pin "2"
-			(uuid "f64871f9-8326-409e-920e-d83ad2c8ae11")
-		)
-		(pin "8"
-			(uuid "156cb369-c91c-4392-a49c-d0be923e64de")
-		)
-		(pin "4"
-			(uuid "5a56fed2-64bb-424e-81ff-a2ecc2a22ac0")
-		)
-		(pin "6"
-			(uuid "324cefcb-bfbd-4d2b-b4de-89d58ed5f882")
-		)
-		(pin "11"
-			(uuid "4eec7288-694c-4c85-b3c2-c8e80c213436")
-		)
-		(pin "10"
-			(uuid "ea087876-8721-43bb-809f-4bf10b301f37")
-		)
-		(pin "1"
-			(uuid "bd62f003-199a-4dcd-bb4f-a6dfb222bae0")
-		)
-		(pin "9"
-			(uuid "45fec7fb-3d02-4a68-8c26-dd72e788d358")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC595")
-		(at 156.21 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97117af3-2d9d-427a-8161-b05d7c1d7f20")
-		(property "Reference" "U4"
-			(at 158.3533 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC595"
-			(at 158.3533 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 156.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 156.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 156.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "3e17af15-63eb-49b8-ac28-d31d0115a8cb")
-		)
-		(pin "3"
-			(uuid "0a825dfc-ab2f-4cee-9703-df2e5342f48c")
-		)
-		(pin "4"
-			(uuid "87b1a42e-0b92-478c-8163-630b2fbffd44")
-		)
-		(pin "5"
-			(uuid "c99b9418-f701-429e-aa95-487e3818521c")
-		)
-		(pin "2"
-			(uuid "ca75fb9d-d06d-4a8f-9b06-75e78e6d0ebc")
-		)
-		(pin "1"
-			(uuid "ede979d8-bb81-486f-9bd9-94eca665e591")
-		)
-		(pin "6"
-			(uuid "446f2551-63a8-4b0a-9bbf-f930ebb05ab5")
-		)
-		(pin "7"
-			(uuid "ba6b03c8-4e3d-41e3-8fad-5d6f66eeebea")
-		)
-		(pin "8"
-			(uuid "bccfb39c-b61d-4f9e-a362-7e64b59382d6")
-		)
-		(pin "9"
-			(uuid "9996ef47-2035-40e8-aa89-558ad509c01e")
-		)
-		(pin "13"
-			(uuid "4087b34b-da88-4291-af4e-40a488966a9d")
-		)
-		(pin "12"
-			(uuid "33c4272b-1ce7-4161-8b02-f2d80036534a")
-		)
-		(pin "14"
-			(uuid "4ca4333f-9436-4434-bcdd-d6caa4ad6991")
-		)
-		(pin "15"
-			(uuid "530cd739-8c41-4076-aad0-885888699fe1")
-		)
-		(pin "16"
-			(uuid "56310fd8-58f0-489f-aa6a-e8c3f551770f")
-		)
-		(pin "11"
-			(uuid "aeddfb69-219c-4f50-a410-4e371b315833")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74HC595")
-		(at 133.35 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c85d104-7091-486f-b343-a9ce1a666dfd")
-		(property "Reference" "U3"
-			(at 135.4933 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC595"
-			(at 135.4933 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 133.35 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 133.35 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 133.35 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "eb12230f-5db4-4162-855d-15ce9d46015b")
-		)
-		(pin "3"
-			(uuid "fb571a33-1e64-4e04-866f-0a76e73c407b")
-		)
-		(pin "4"
-			(uuid "c44d6ecc-5132-450e-a2e3-9d5007f0caf3")
-		)
-		(pin "5"
-			(uuid "7edfbade-ba78-4e6a-b75d-29fdec294988")
-		)
-		(pin "2"
-			(uuid "6d8bc051-7736-4c64-bf07-19eeb0efc738")
-		)
-		(pin "1"
-			(uuid "8b710c9c-5adb-4630-b85c-37758c2dfa92")
-		)
-		(pin "6"
-			(uuid "fe981e53-3234-4465-b93b-c17593685e38")
-		)
-		(pin "7"
-			(uuid "1822be53-d9c3-4a67-b215-469c7ecc27fa")
-		)
-		(pin "8"
-			(uuid "a85d981c-6507-4ab7-b81c-0a2f8cd71300")
-		)
-		(pin "9"
-			(uuid "e612b56c-fb70-4074-bfcf-ea719f5dc6a7")
-		)
-		(pin "13"
-			(uuid "ff09ba30-e3b1-45ee-aa43-23cbea23e28d")
-		)
-		(pin "12"
-			(uuid "1a95317a-96d0-4ce6-8d03-ceed0754fa0f")
-		)
-		(pin "14"
-			(uuid "f13ee70a-5d32-43d2-a4bd-a6ccc5133f35")
-		)
-		(pin "15"
-			(uuid "196f8a73-4924-415d-be2c-58a4712e5320")
-		)
-		(pin "16"
-			(uuid "8655a11a-f4c8-45b0-bfc8-6353cd048b39")
-		)
-		(pin "11"
-			(uuid "ec9a2887-0d15-4fa2-9e7e-5f3901436e40")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "U3")
 					(unit 1)
 				)
@@ -3525,8 +2720,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 234.95 161.29 0)
+		(lib_id "power:+5V")
+		(at 31.75 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3535,29 +2730,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9e3b3afc-6938-480b-bee5-ee858ef8a16f")
-		(property "Reference" "U9"
-			(at 234.95 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 234.95 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 234.95 161.29 0)
+		(uuid "402604f4-1fc3-4277-ace3-32e035b0aa67")
+		(property "Reference" "#PWR04"
+			(at 31.75 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,11 +2740,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Value" "+5V"
+			(at 31.75 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 161.29 0)
+			(at 31.75 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3579,8 +2774,8 @@
 				)
 			)
 		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 234.95 161.29 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 31.75 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3588,211 +2783,94 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
-		)
-		(property "MF" "AMD"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 234.95 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "00ebe8bf-53e8-4aab-a277-d7509ad9b203")
-		)
-		(pin "10"
-			(uuid "a3b61174-c61e-4a44-a1c0-a406c4dfcd9a")
-		)
-		(pin "15"
-			(uuid "4d321f5d-6232-4e39-b148-90b224dcc5b9")
-		)
-		(pin "4"
-			(uuid "bf994f03-6b42-4bf6-9f7f-a202b6ec7310")
-		)
-		(pin "7"
-			(uuid "b11f625c-6bcb-4c8e-ae7f-645c41884610")
-		)
-		(pin "9"
-			(uuid "78f94c1a-5aa4-4b67-9e84-d28c32e7a43c")
-		)
-		(pin "11"
-			(uuid "0e4c2796-ea0d-4ce9-8564-da3fd60641a4")
-		)
-		(pin "14"
-			(uuid "f9fb2d8a-2966-4edb-b74b-d80b527453b5")
-		)
-		(pin "17"
-			(uuid "9e721276-9be9-4bbf-9b1c-a5a5502195d5")
-		)
-		(pin "18"
-			(uuid "d6010751-3712-4280-b27d-29389f840ac5")
-		)
-		(pin "5"
-			(uuid "e68421f9-035d-4627-a352-a33275617c27")
 		)
 		(pin "1"
-			(uuid "1d900c73-9628-43ae-8bf9-14eefa05fcf5")
-		)
-		(pin "2"
-			(uuid "d0c501ed-4a92-45b9-9f38-1761ae268f56")
-		)
-		(pin "6"
-			(uuid "2a4dc208-d745-4353-a185-5f4f6e9845cc")
-		)
-		(pin "3"
-			(uuid "d3c2504c-d12a-47f6-a458-58ab05781fef")
-		)
-		(pin "12"
-			(uuid "8457f7c0-e2e5-408d-8daa-b562fd35346d")
-		)
-		(pin "13"
-			(uuid "13ae6e7f-0830-416e-8330-4f41b2ffeb8a")
-		)
-		(pin "16"
-			(uuid "a881ee7b-01e9-453d-a596-01138b17006c")
+			(uuid "231f6b41-8fda-4f9f-ae09-5e587e66923c")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U9")
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 96.52 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48c341cc-3b8b-413d-a0a5-6accb8d37150")
+		(property "Reference" "#PWR07"
+			(at 92.71 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+1.5V"
+			(at 100.33 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 96.52 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3129a2af-4921-463b-b1c0-7efb7d88251a")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3871,280 +2949,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 274.32 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d283c896-0be8-4fcd-8ed9-b7911b0a9df3")
-		(property "Reference" "U10"
-			(at 274.32 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 274.32 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMD"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 274.32 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "9d3c07cf-c341-499f-a782-fa3078268a5a")
-		)
-		(pin "10"
-			(uuid "1c79e15f-18d4-4a80-8a94-7bbeba58dc2e")
-		)
-		(pin "15"
-			(uuid "e769e999-3dfe-4625-a7fe-df9960c8f7d0")
-		)
-		(pin "4"
-			(uuid "cb6c13e5-f109-4761-a853-289b3a3fcafd")
-		)
-		(pin "7"
-			(uuid "3fb7a88e-8a81-494c-b133-004051c9e0ae")
-		)
-		(pin "9"
-			(uuid "487832e0-708d-4e49-8ba6-6faf7b86a27e")
-		)
-		(pin "11"
-			(uuid "4f14ff02-1731-41b3-b8de-4bb739f42040")
-		)
-		(pin "14"
-			(uuid "83ce1a55-ee92-411d-930d-09baaf9f6ff3")
-		)
-		(pin "17"
-			(uuid "ccb5bc14-722d-421e-81c1-b7377227603b")
-		)
-		(pin "18"
-			(uuid "dea4e8d2-980d-488b-8201-0907a4aa10f2")
-		)
-		(pin "5"
-			(uuid "0ea70102-543a-4421-b9a9-eff2fc7abc65")
-		)
-		(pin "1"
-			(uuid "f9d38422-85c8-47a2-ab21-5dd121cc3d62")
-		)
-		(pin "2"
-			(uuid "5787c097-2b22-4541-a441-24a1826b9948")
-		)
-		(pin "6"
-			(uuid "f8c5c9fc-e350-4632-9406-63c9250d4518")
-		)
-		(pin "3"
-			(uuid "f4cd7a7a-0e93-4d84-ad55-682c5f0ad3ed")
-		)
-		(pin "12"
-			(uuid "2c4fbbdc-ff43-4579-882a-46228846bebf")
-		)
-		(pin "13"
-			(uuid "05d656b2-3fd8-43db-914e-82e126ed3802")
-		)
-		(pin "16"
-			(uuid "c846f7f3-951a-4176-b4c3-0b71ff12ed28")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -4318,132 +3122,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC595")
-		(at 180.34 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e77611cc-71f8-4a1d-9692-7ccd3c7833b2")
-		(property "Reference" "U5"
-			(at 182.4833 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC595"
-			(at 182.4833 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 180.34 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 180.34 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 180.34 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "742dbb3d-5636-4ba2-83c5-5d088ce02d28")
-		)
-		(pin "3"
-			(uuid "13567da3-12cf-49a8-b258-f70ca8e89766")
-		)
-		(pin "4"
-			(uuid "9a25b16b-8c44-4cbd-b559-15a2d11740dc")
-		)
-		(pin "5"
-			(uuid "2e101434-aca4-43cf-8c02-dbb08123f233")
-		)
-		(pin "2"
-			(uuid "82973463-3c1e-48b6-82b3-c5dd26cbcfb0")
-		)
-		(pin "1"
-			(uuid "6821c878-911e-4235-8ddc-a734be2f5381")
-		)
-		(pin "6"
-			(uuid "42ddd526-e91c-4299-8010-aed2e03ca49a")
-		)
-		(pin "7"
-			(uuid "9d474b4a-6f04-4208-97ba-2a1ebdf00542")
-		)
-		(pin "8"
-			(uuid "2f3e1387-3852-4c83-a744-262be7b1a09c")
-		)
-		(pin "9"
-			(uuid "461c5efe-2677-4670-a061-4daa5bc6f64c")
-		)
-		(pin "13"
-			(uuid "8bd9085a-db01-4737-ba83-3f113d30c1e0")
-		)
-		(pin "12"
-			(uuid "cd73c5da-eaa8-491a-9260-97fae9f20d7a")
-		)
-		(pin "14"
-			(uuid "20776b8a-38c1-4c1e-921c-10fe6b2e8a7b")
-		)
-		(pin "15"
-			(uuid "09a0d3ba-8e93-440f-a221-204de1ff9433")
-		)
-		(pin "16"
-			(uuid "faefa373-32be-4e2a-bc59-33f8f0080751")
-		)
-		(pin "11"
-			(uuid "cb160e6b-91ac-4cf2-8b9f-6f0db1d69b0f")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "UDN2981A:UDN2981A")
-		(at 149.86 176.53 0)
+		(at 63.5 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4453,8 +3133,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8492553-4519-42f9-83e1-c9b7711948d1")
-		(property "Reference" "U7"
-			(at 149.86 156.21 0)
+		(property "Reference" "U2"
+			(at 63.5 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4464,7 +3144,7 @@
 			)
 		)
 		(property "Value" "UDN2981A"
-			(at 149.86 158.75 0)
+			(at 63.5 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4474,7 +3154,7 @@
 			)
 		)
 		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4486,7 +3166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4497,7 +3177,7 @@
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4509,7 +3189,7 @@
 			)
 		)
 		(property "MF" "AMD"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +3201,7 @@
 			)
 		)
 		(property "PACKAGE" "PDIP-18"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4533,7 +3213,7 @@
 			)
 		)
 		(property "MPN" "UDN2981A"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4545,7 +3225,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4557,7 +3237,7 @@
 			)
 		)
 		(property "Package" "DIP-18 AMD"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4569,7 +3249,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1193495"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +3261,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4593,7 +3273,7 @@
 			)
 		)
 		(property "MP" "UDN2981A"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4605,7 +3285,7 @@
 			)
 		)
 		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4617,7 +3297,7 @@
 			)
 		)
 		(property "OC_NEWARK" "31K7841"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,7 +3309,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4641,7 +3321,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 149.86 176.53 0)
+			(at 63.5 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +3389,7 @@
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4717,7 +3397,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC595")
-		(at 73.66 81.28 0)
+		(at 31.75 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4725,10 +3405,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eea9f8bf-67c5-460f-9ba3-c1ff4cfb202c")
 		(property "Reference" "U1"
-			(at 75.8033 63.5 0)
+			(at 20.066 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4739,7 +3418,7 @@
 			)
 		)
 		(property "Value" "74HC595"
-			(at 75.8033 66.04 0)
+			(at 20.066 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4750,7 +3429,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 73.66 81.28 0)
+			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4761,7 +3440,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 73.66 81.28 0)
+			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +3451,7 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 73.66 81.28 0)
+			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4840,8 +3519,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 274.32 102.87 0)
+		(lib_id "power:GND")
+		(at 96.52 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4850,29 +3529,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f307a7e5-82bb-4b78-a47e-69ffbb695b34")
-		(property "Reference" "U11"
-			(at 274.32 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 274.32 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 274.32 102.87 0)
+		(uuid "f413f9c4-ceaa-443e-946c-91ac1647d8b9")
+		(property "Reference" "#PWR08"
+			(at 102.87 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4880,11 +3539,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 41.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 102.87 0)
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4894,8 +3574,8 @@
 				)
 			)
 		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 274.32 102.87 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4903,211 +3583,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
-		)
-		(property "MF" "AMD"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 274.32 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "53f91f86-7903-4c89-9f87-14d29c78605a")
-		)
-		(pin "10"
-			(uuid "39b474e8-80cb-4e2f-a026-1f5d2dd9b86f")
-		)
-		(pin "15"
-			(uuid "f50b0671-5e92-402e-b5f8-defd368dd87a")
-		)
-		(pin "4"
-			(uuid "44d036a2-7983-4c5d-9a4e-e2ff190df719")
-		)
-		(pin "7"
-			(uuid "00a2c526-c954-4550-b648-faf77719e8f5")
-		)
-		(pin "9"
-			(uuid "66f728ab-8bc8-4d17-8a54-b655bf40a100")
-		)
-		(pin "11"
-			(uuid "c73f6b64-abec-4501-adf5-04170d543ff7")
-		)
-		(pin "14"
-			(uuid "1b79082d-26d5-43e8-8bc2-6b13ebe30174")
-		)
-		(pin "17"
-			(uuid "cbbc2181-0e23-4371-b674-fa8cae4d5715")
-		)
-		(pin "18"
-			(uuid "df0e4adc-d914-4d38-a718-9bc79884e54c")
-		)
-		(pin "5"
-			(uuid "8501ccb3-ff3b-4c6b-a82b-e49ca428c5b3")
 		)
 		(pin "1"
-			(uuid "b10d7cf9-fda4-4887-96fa-fe76d9624494")
-		)
-		(pin "2"
-			(uuid "e9cf05ed-ad11-4caf-90ea-4ed20bed1223")
-		)
-		(pin "6"
-			(uuid "d45352d0-9fae-410f-8066-1516bd043556")
-		)
-		(pin "3"
-			(uuid "832ad94c-e332-4b8a-8436-402652fc37c7")
-		)
-		(pin "12"
-			(uuid "84028d51-80e6-4175-8d3f-5cb9c7e9adac")
-		)
-		(pin "13"
-			(uuid "1324a6e6-95b5-4831-a1e3-4e2e37c2917e")
-		)
-		(pin "16"
-			(uuid "3fc910ef-24c5-4018-966c-d79df9cc75b9")
+			(uuid "e21e8dee-f62f-4880-a477-f3730201d686")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U11")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5192,8 +3676,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74HC595")
-		(at 204.47 82.55 0)
+		(lib_id "power:GND")
+		(at 45.72 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5202,31 +3686,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fbc4709b-6691-40b1-88f5-853e96299eb4")
-		(property "Reference" "U6"
-			(at 206.6133 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74HC595"
-			(at 206.6133 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 204.47 82.55 0)
+		(uuid "f7966eb5-dcbc-4dff-b65c-e20733b4c07d")
+		(property "Reference" "#PWR06"
+			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5236,8 +3698,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74hc595.pdf"
-			(at 204.47 82.55 0)
+		(property "Value" "GND"
+			(at 45.72 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,8 +3719,8 @@
 				)
 			)
 		)
-		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
-			(at 204.47 82.55 0)
+		(property "Datasheet" ""
+			(at 45.72 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,58 +3730,24 @@
 				)
 			)
 		)
-		(pin "10"
-			(uuid "e70fd213-a653-46a2-bbbf-51e5e9228cbb")
-		)
-		(pin "3"
-			(uuid "99784586-2f5c-453b-82fc-772955b1874b")
-		)
-		(pin "4"
-			(uuid "c177f994-4205-42fb-ac5a-4f0a66e0e558")
-		)
-		(pin "5"
-			(uuid "583bc505-c09f-4b73-ba51-55cba188758b")
-		)
-		(pin "2"
-			(uuid "a183c9ba-c1a3-4231-9999-7a94485d471f")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "092a03a2-b63c-4401-90d9-ce888ae45d40")
-		)
-		(pin "6"
-			(uuid "3d111c01-a58a-4f01-be7f-cfb208f419c2")
-		)
-		(pin "7"
-			(uuid "479c55f9-0ed8-4a44-817e-33c2dab31695")
-		)
-		(pin "8"
-			(uuid "8e7303f5-5b6d-4b09-8b84-c79bb7de7d0b")
-		)
-		(pin "9"
-			(uuid "3084ec0e-4031-4a13-af14-5e8db192e379")
-		)
-		(pin "13"
-			(uuid "d8e6402c-fe39-4fe2-952c-b2d2e0fd8fc0")
-		)
-		(pin "12"
-			(uuid "4175c5a2-25c9-4259-8890-a9ac719feda4")
-		)
-		(pin "14"
-			(uuid "19bf0bc5-84b0-40e1-90c5-ce69344ed2de")
-		)
-		(pin "15"
-			(uuid "7540210e-f377-43c7-b55c-6f2726e00078")
-		)
-		(pin "16"
-			(uuid "65699a6a-0903-4790-bb8f-03a1240b3924")
-		)
-		(pin "11"
-			(uuid "db3be04e-9391-43f6-af1f-524f3f1167cb")
+			(uuid "15b1ea5b-9917-45e9-8227-7122bd8ac000")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U6")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
