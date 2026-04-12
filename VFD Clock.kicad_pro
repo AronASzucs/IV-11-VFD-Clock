@@ -468,8 +468,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Custom Parts"
+    ],
+    "pinned_symbol_libs": [
+      "Custom Parts"
+    ]
   },
   "meta": {
     "filename": "VFD Clock.kicad_pro",
@@ -632,7 +636,7 @@
         "uuid": "18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
       }
     ],
-    "used_designators": "U1-18,A1,#PWR1-56",
+    "used_designators": "U1-18,A1,#PWR1-72,J1,C1-7",
     "variants": []
   },
   "sheets": [
