@@ -1057,6 +1057,301 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Custom Parts:LM2596_module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.508 3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM2596 Module"
+				(at 7.366 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Custom Parts:LM2596 Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LM2596 Module from Aliexpress"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM2596_module_0_1"
+				(rectangle
+					(start 0 0)
+					(end 13.97 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LM2596_module_1_1"
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "In+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "In-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -1.27 180)
+					(length 2.54)
+					(name "Out+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "Out-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Custom Parts:XL6009_Module"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.508 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XL6009 Module"
+				(at 7.366 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Custom Parts:XL6009 Module"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "XL6009 Module from Aliexpress"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "XL6009_Module_0_1"
+				(rectangle
+					(start 0 0)
+					(end 15.24 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XL6009_Module_1_1"
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "In+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "In-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -1.27 180)
+					(length 2.54)
+					(name "Out+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "Out-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3960,6 +4255,359 @@
 		)
 	)
 	(symbol
+		(lib_id "UDN2981A:UDN2981A")
+		(at 81.28 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0381b952-3457-436b-a67b-227e8e02c9f8")
+		(property "Reference" "U5"
+			(at 81.28 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDN2981A"
+			(at 81.28 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UDN2981A:DIP254P762X533-18"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMD"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "PDIP-18"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "UDN2981A"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "DIP-18 AMD"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_FARNELL" "1193495"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "UDN2981A"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_NEWARK" "31K7841"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "b1f9b41e-4d6d-4f13-9852-5adbe6f91e53")
+		)
+		(pin "8"
+			(uuid "acdab8a5-8fe5-4f77-96b5-a1d7e15c7962")
+		)
+		(pin "14"
+			(uuid "3efd0c0c-0c27-4679-a22f-deb373ea034a")
+		)
+		(pin "16"
+			(uuid "e7835369-7d02-4886-b2bd-3b71e5f1f830")
+		)
+		(pin "5"
+			(uuid "3ab8a150-d991-435f-a786-b3d6b74c86b6")
+		)
+		(pin "7"
+			(uuid "bcb8b25a-cef4-4e3b-b200-cb1c139b9763")
+		)
+		(pin "11"
+			(uuid "9d55e4dd-4263-43c6-9fc8-5be956f33b27")
+		)
+		(pin "12"
+			(uuid "4e6409c9-1f23-4524-8b11-b7beeba8d7c9")
+		)
+		(pin "2"
+			(uuid "abbf2c59-34b0-44da-84e2-d0a6f6d87360")
+		)
+		(pin "6"
+			(uuid "13663bd0-81c5-4bc7-b598-6639042e17fd")
+		)
+		(pin "17"
+			(uuid "719859aa-81b1-400a-b5ae-8c6232769e49")
+		)
+		(pin "4"
+			(uuid "fcafa18b-6238-4c92-a804-ea7421846668")
+		)
+		(pin "9"
+			(uuid "d2237aa9-17a6-470f-900a-339b275815d0")
+		)
+		(pin "10"
+			(uuid "b67d115b-c7e8-4159-a137-b6e1e338f8e7")
+		)
+		(pin "3"
+			(uuid "1cfd6f15-156a-4268-af2d-1f626c5d47b3")
+		)
+		(pin "13"
+			(uuid "e9e4136c-5199-42e5-897a-789cc6e80be3")
+		)
+		(pin "15"
+			(uuid "b959e2c5-3d61-4f24-bc0f-3f5fbf3f0d84")
+		)
+		(pin "18"
+			(uuid "a094031a-0373-40e6-a268-130705ed021e")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 245.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07db925d-bc3b-4a72-8cb2-eaca8b00d119")
+		(property "Reference" "#PWR076"
+			(at 218.44 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 245.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32088c15-4d41-41e0-9165-e0207401fdbb")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 106.68 105.41 180)
 		(unit 1)
@@ -4351,8 +4999,8 @@
 		)
 	)
 	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 81.28 137.16 0)
+		(lib_id "power:+5V")
+		(at 243.84 262.89 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4361,29 +5009,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "197856a7-cd34-418c-b041-3118967cb4e3")
-		(property "Reference" "U8"
-			(at 81.28 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 81.28 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 81.28 137.16 0)
+		(uuid "1a8bfea4-f1c4-4ea6-a1cd-7abee06c3edf")
+		(property "Reference" "#PWR080"
+			(at 240.03 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4391,11 +5019,32 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Value" "+1.5V"
+			(at 247.65 262.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 137.16 0)
+			(at 243.84 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4405,8 +5054,8 @@
 				)
 			)
 		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 81.28 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 243.84 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4414,211 +5063,15 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
-		)
-		(property "MF" "AMD"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 81.28 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "0b9cd68e-b267-4c0b-a988-ab5355f70328")
-		)
-		(pin "10"
-			(uuid "10a52078-9d24-4642-96dd-afd56c25dbef")
-		)
-		(pin "15"
-			(uuid "82f6ee5a-0b71-45af-81b5-ea07c2410bd5")
-		)
-		(pin "4"
-			(uuid "cb9a56bb-15a6-4f6e-be14-15cb20b18d59")
-		)
-		(pin "7"
-			(uuid "6c5edee8-9104-4ccd-8b86-13b341e1d3dd")
-		)
-		(pin "9"
-			(uuid "db18f8b9-a46f-4580-ab7f-fb8bc1562902")
-		)
-		(pin "11"
-			(uuid "f68cef4f-7219-4183-a9c4-6d08f8981690")
-		)
-		(pin "14"
-			(uuid "eea4af4c-b44a-4519-b520-eb8c7efaefc7")
-		)
-		(pin "17"
-			(uuid "2602404b-feb1-4b3e-955d-5bbf48e8b9d9")
-		)
-		(pin "18"
-			(uuid "2659f0c8-d7cd-4b00-b77e-b33890207fba")
-		)
-		(pin "5"
-			(uuid "52acdbbe-8387-4ae9-9b21-bdb77d32c093")
 		)
 		(pin "1"
-			(uuid "b3bfd13a-492c-4669-b1fd-3ac50dd5ebe0")
-		)
-		(pin "2"
-			(uuid "bcfa3718-edb7-423f-9151-24798fa565b4")
-		)
-		(pin "6"
-			(uuid "8453adec-a257-4163-95f2-190d9b34cd21")
-		)
-		(pin "3"
-			(uuid "950ad413-4909-44a1-9c84-c26001a77d78")
-		)
-		(pin "12"
-			(uuid "28903162-ad0a-4951-9cf6-01aab2eaea7a")
-		)
-		(pin "13"
-			(uuid "8ab85ce9-b75e-4ad1-bf47-df3f0cdc6b8b")
-		)
-		(pin "16"
-			(uuid "75fdd66e-6feb-4c4f-ba3c-348bbff4451e")
+			(uuid "e2ce0c2c-6055-4bc9-8125-7677c5f090b4")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U8")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5227,280 +5680,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "U12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 81.28 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24587290-b334-49e9-abe6-c3870ea9790e")
-		(property "Reference" "U11"
-			(at 81.28 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 81.28 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMD"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 81.28 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "3648f6d0-9be3-4726-ae5d-57ebd0380638")
-		)
-		(pin "10"
-			(uuid "4fbff488-b9e0-4a25-92ab-7a06ee365970")
-		)
-		(pin "15"
-			(uuid "7f49bef1-0e72-45d5-b257-b1430d596b2f")
-		)
-		(pin "4"
-			(uuid "09206eab-15de-4035-8ee4-2988095ea407")
-		)
-		(pin "7"
-			(uuid "f8576670-44e4-451d-a973-eccf8f3adc87")
-		)
-		(pin "9"
-			(uuid "76618c15-e712-4ceb-9b33-43d609ec89e3")
-		)
-		(pin "11"
-			(uuid "5e585239-ad7d-453f-a7e0-e084022f943d")
-		)
-		(pin "14"
-			(uuid "8a60277b-d430-404e-a420-3c5e70da3a6f")
-		)
-		(pin "17"
-			(uuid "fbf6b77e-c50a-4796-879c-b2339157f405")
-		)
-		(pin "18"
-			(uuid "fe5cee3f-5b01-4b87-95c6-e4c94fb3cf5b")
-		)
-		(pin "5"
-			(uuid "39a7e610-f3fd-46c2-93a3-b780ffacda4f")
-		)
-		(pin "1"
-			(uuid "2428734f-6dab-4061-a67b-6c6fe6d88816")
-		)
-		(pin "2"
-			(uuid "2fb9df6e-96cb-47a2-88d9-35c0fc7d8294")
-		)
-		(pin "6"
-			(uuid "939952bf-84f5-4017-be7a-f99b0f194f75")
-		)
-		(pin "3"
-			(uuid "561e2200-1dbe-42bf-8d29-0e73dded86a2")
-		)
-		(pin "12"
-			(uuid "b3816146-2e8b-4937-83f2-3c41e5d6d9ee")
-		)
-		(pin "13"
-			(uuid "d01833f1-2613-4f0d-ac71-84b188418cd7")
-		)
-		(pin "16"
-			(uuid "0495695d-de7c-4cdc-9af8-b9ec3c3ae1e1")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6133,6 +6312,280 @@
 		)
 	)
 	(symbol
+		(lib_id "UDN2981A:UDN2981A")
+		(at 81.28 184.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34a39f82-11e4-486d-a89b-b5dcfcf37896")
+		(property "Reference" "U11"
+			(at 81.28 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDN2981A"
+			(at 81.28 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UDN2981A:DIP254P762X533-18"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMD"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "PDIP-18"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "UDN2981A"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "DIP-18 AMD"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_FARNELL" "1193495"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "UDN2981A"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_NEWARK" "31K7841"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
+			(at 81.28 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "2873396a-94c9-4338-b282-53a2f09efaaf")
+		)
+		(pin "8"
+			(uuid "3eb9d1d6-7e92-4a1c-8264-02803b749e48")
+		)
+		(pin "14"
+			(uuid "84fd0d22-5acb-406e-bb23-e1e8ffe033bc")
+		)
+		(pin "16"
+			(uuid "6fe1bc75-f663-400c-b92a-cc230760875b")
+		)
+		(pin "5"
+			(uuid "3a19b181-7f3c-4bdf-bc5e-beec560ad86a")
+		)
+		(pin "7"
+			(uuid "881d6ca4-44a2-4063-8f8d-3ebe9f4c645f")
+		)
+		(pin "11"
+			(uuid "0cc0b38a-6854-4dc9-8ce4-70d850e7e432")
+		)
+		(pin "12"
+			(uuid "2ca0ebb1-d189-431d-b162-84ae0f08e221")
+		)
+		(pin "2"
+			(uuid "e6e3ec8c-cf88-4ec9-bee3-b94cf5de06f4")
+		)
+		(pin "6"
+			(uuid "f0db654d-0d88-42b3-a995-c098c8915879")
+		)
+		(pin "17"
+			(uuid "8604d012-27a1-4960-88e8-96c04588422e")
+		)
+		(pin "4"
+			(uuid "e854d542-4a3f-44ba-a82c-f1272682738d")
+		)
+		(pin "9"
+			(uuid "606bf886-73c7-452e-9276-8fa380d238d8")
+		)
+		(pin "10"
+			(uuid "ff33b176-341d-4086-9576-87976c7de205")
+		)
+		(pin "3"
+			(uuid "88901220-3e82-4e36-be33-aa110ebdf1cd")
+		)
+		(pin "13"
+			(uuid "469e3aab-6d69-4647-9d02-a7f9c9c4eeee")
+		)
+		(pin "15"
+			(uuid "87773f60-05c2-45bf-b7eb-78c63a81306a")
+		)
+		(pin "18"
+			(uuid "2df78d37-a1b7-4e04-af52-fa433dd4a9d1")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 49.53 220.98 0)
 		(unit 1)
@@ -6205,280 +6658,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 81.28 278.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3672cda6-21fd-41e9-8b58-3f1da44bc05c")
-		(property "Reference" "U17"
-			(at 81.28 257.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 81.28 260.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMD"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 81.28 278.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "c8732f1c-aaee-4deb-832d-29f5c1a97898")
-		)
-		(pin "10"
-			(uuid "6f77ecb2-7a30-4796-a186-26b5a661cdd4")
-		)
-		(pin "15"
-			(uuid "6014e2c6-cdc1-40be-8758-fe1a736a808e")
-		)
-		(pin "4"
-			(uuid "84413931-7129-46c2-b509-4946f2b95ace")
-		)
-		(pin "7"
-			(uuid "b1249b4a-e4b9-4418-b243-40a8a8ab6be9")
-		)
-		(pin "9"
-			(uuid "5569ea69-ced3-49f2-a6d1-0375c20bde2e")
-		)
-		(pin "11"
-			(uuid "96e5af24-b41b-4ae9-9d40-b2ab35bf9f7b")
-		)
-		(pin "14"
-			(uuid "f08fcb0b-7380-40db-928a-a8a134a64720")
-		)
-		(pin "17"
-			(uuid "60305242-1392-4809-b1a0-8e0ba391f1df")
-		)
-		(pin "18"
-			(uuid "23540ed0-9bfb-4599-8edd-418f19790a3f")
-		)
-		(pin "5"
-			(uuid "5c90ec34-fbb9-4543-8f54-2badd80e74e2")
-		)
-		(pin "1"
-			(uuid "684bb0f4-caf5-49d3-b5ea-195a73787633")
-		)
-		(pin "2"
-			(uuid "d14d29a4-c7d1-4d1f-be28-c5a083e39ccf")
-		)
-		(pin "6"
-			(uuid "02b25565-abd7-4646-837c-3d07d324be9a")
-		)
-		(pin "3"
-			(uuid "3bc3d70f-feb8-4bdb-979d-08a95db5371f")
-		)
-		(pin "12"
-			(uuid "d4ac1317-a407-4f0b-aca8-7d0b0823312c")
-		)
-		(pin "13"
-			(uuid "d85530f9-23ff-42c8-969b-fa8f847b5b48")
-		)
-		(pin "16"
-			(uuid "7624a412-d7c8-4804-90fd-71808e61a8ba")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -7580,6 +7759,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom Parts:XL6009_Module")
+		(at 227.33 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5103e6ec-ed50-4c65-9736-86299e30e0ff")
+		(property "Reference" "U19"
+			(at 234.95 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XL6009 Module"
+			(at 234.95 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom Parts:XL6009 Module"
+			(at 227.33 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "XL6009 Module from Aliexpress"
+			(at 227.33 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aea82147-06b1-4da6-9741-43b7b88e1708")
+		)
+		(pin "1"
+			(uuid "4361164e-02bf-4414-9868-6bf3fc62a583")
+		)
+		(pin "4"
+			(uuid "a07efdc7-c67c-47ce-82b2-938acae545fe")
+		)
+		(pin "3"
+			(uuid "45d9f883-4903-48b3-b799-33e2c3f9c48b")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 233.68 90)
 		(unit 1)
@@ -7889,280 +8154,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 81.28 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5aaf264e-2aed-468a-8442-b594d43930f4")
-		(property "Reference" "U5"
-			(at 81.28 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 81.28 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMD"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 81.28 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "2107e56a-89c0-424f-91e2-0f63202f0bbc")
-		)
-		(pin "10"
-			(uuid "4fc5e422-1a3f-4d6e-8a16-d8b98a937aa0")
-		)
-		(pin "15"
-			(uuid "2a239ac7-c15c-494f-aac9-91cd99a2b5d8")
-		)
-		(pin "4"
-			(uuid "84bc395a-3fa0-45a5-963a-671916b1c61c")
-		)
-		(pin "7"
-			(uuid "d714379d-716e-4a44-9656-a1579810da37")
-		)
-		(pin "9"
-			(uuid "3dc9cc84-2864-46cc-aafa-61f4438fde4b")
-		)
-		(pin "11"
-			(uuid "4707ed15-32e7-4635-8702-110547001d16")
-		)
-		(pin "14"
-			(uuid "02212b07-8126-450f-99f7-7ca59c9dce63")
-		)
-		(pin "17"
-			(uuid "64257f13-7e39-4a9c-bb0b-7fd8e6fa1ee8")
-		)
-		(pin "18"
-			(uuid "c44c3c9e-cd7b-46b3-9e6b-c9d86dd07ac8")
-		)
-		(pin "5"
-			(uuid "4c3572df-e164-4f33-988c-6f8c695d5d7e")
-		)
-		(pin "1"
-			(uuid "f7d0c69f-08e7-429a-a2db-fe7cfdce0b81")
-		)
-		(pin "2"
-			(uuid "b4429ce2-3de0-4b81-988c-8c4367638c21")
-		)
-		(pin "6"
-			(uuid "6b30bd35-a09c-4ad6-a9c0-991f3ab95e98")
-		)
-		(pin "3"
-			(uuid "84f5cd7b-9254-4e6c-8c21-8ce5fd0736f7")
-		)
-		(pin "12"
-			(uuid "fa746750-24b3-419c-86ce-c4f770eeeb47")
-		)
-		(pin "13"
-			(uuid "6f28c859-21d5-45ff-80d0-ce64e213bcdb")
-		)
-		(pin "16"
-			(uuid "c74372e0-5235-4cad-abcc-ddf4735fa410")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8526,6 +8517,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 243.84 266.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64063432-8c12-4a3b-a522-0f5b4165ac90")
+		(property "Reference" "#PWR078"
+			(at 250.19 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 266.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd0f7b76-1d32-4097-8c02-cd42617c322d")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 20.32 95.25 0)
 		(unit 1)
@@ -8758,280 +8828,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "UDN2981A:UDN2981A")
-		(at 81.28 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74c292a7-eee0-4060-961d-8bc55a8fcb02")
-		(property "Reference" "U14"
-			(at 81.28 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UDN2981A"
-			(at 81.28 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "AMD"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PACKAGE" "PDIP-18"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "UDN2981A"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "DIP-18 AMD"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_FARNELL" "1193495"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "UDN2981A"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "OC_NEWARK" "31K7841"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 81.28 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "8"
-			(uuid "2c96ac4a-6549-471b-8062-36d46ad7200b")
-		)
-		(pin "10"
-			(uuid "67701911-08ee-43e0-a747-26422e1cfc39")
-		)
-		(pin "15"
-			(uuid "be40d6a8-2d6b-46b9-b7d4-b7d1fe7f3b38")
-		)
-		(pin "4"
-			(uuid "4b662521-4eb1-4116-b03e-c594cbd709ae")
-		)
-		(pin "7"
-			(uuid "e32c861a-c9cc-48ba-ab57-b39b51bd2569")
-		)
-		(pin "9"
-			(uuid "3d87e459-3e2b-42a6-af34-7290f4b43906")
-		)
-		(pin "11"
-			(uuid "f33a0b76-0509-4345-b1f5-8424ecaacc73")
-		)
-		(pin "14"
-			(uuid "5f62fecd-6a74-4d60-a648-1a66c2d43726")
-		)
-		(pin "17"
-			(uuid "3756a62f-f608-4551-b6ac-90a922285c50")
-		)
-		(pin "18"
-			(uuid "c5554e80-483e-43b2-aa8a-d261516642c6")
-		)
-		(pin "5"
-			(uuid "43d926e0-e121-4b79-9315-3fdcf15c2546")
-		)
-		(pin "1"
-			(uuid "c300fde3-f2fd-42fa-8468-d503c9b44dfd")
-		)
-		(pin "2"
-			(uuid "5047d323-f4d3-4cd8-afce-52e2103f8d6a")
-		)
-		(pin "6"
-			(uuid "c57d91da-1e41-447e-956a-5727df8abd9f")
-		)
-		(pin "3"
-			(uuid "0c02a24a-dbfd-46a3-be1a-26c42871d6ba")
-		)
-		(pin "12"
-			(uuid "29f1a09e-5123-4aab-8425-4906fbfa8f37")
-		)
-		(pin "13"
-			(uuid "d3177a29-043c-4ff5-899c-e02eef34f6c0")
-		)
-		(pin "16"
-			(uuid "cadaa37c-aff8-454c-944e-2c0676fbac97")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -9275,6 +9071,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 245.11 245.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80469da9-61be-426b-b913-e9058fda2200")
+		(property "Reference" "#PWR077"
+			(at 251.46 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 245.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd045069-9e6e-4ec0-8175-c920a3f12e2a")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 39.37 241.3 270)
 		(unit 1)
 		(body_style 1)
@@ -9431,6 +9306,280 @@
 		)
 	)
 	(symbol
+		(lib_id "UDN2981A:UDN2981A")
+		(at 81.28 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "917877a5-45fc-49b7-8b36-231d5404f213")
+		(property "Reference" "U2"
+			(at 81.28 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDN2981A"
+			(at 81.28 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UDN2981A:DIP254P762X533-18"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMD"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "PDIP-18"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "UDN2981A"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "DIP-18 AMD"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_FARNELL" "1193495"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "UDN2981A"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_NEWARK" "31K7841"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
+			(at 81.28 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "4f87a49d-89f0-4628-a69b-b140c28307b5")
+		)
+		(pin "8"
+			(uuid "324580d0-bf8a-489d-b49b-b300adcf1edc")
+		)
+		(pin "14"
+			(uuid "f1760a98-c840-4fcc-8a47-0b369a37e7e5")
+		)
+		(pin "16"
+			(uuid "168f20bd-bf63-48d4-a65d-dde73ce3d5f8")
+		)
+		(pin "5"
+			(uuid "611ebe74-8664-43ea-ae25-1750cdbc235d")
+		)
+		(pin "7"
+			(uuid "9ed34d7c-18c4-4ef3-829f-abda1432d1f4")
+		)
+		(pin "11"
+			(uuid "6a0c9733-2d9b-4b66-b4d5-5095ecd5187b")
+		)
+		(pin "12"
+			(uuid "6e1c64b6-3e69-4852-8202-d7ec8caf3986")
+		)
+		(pin "2"
+			(uuid "0f4324b8-508f-4e71-acb5-c1cda2842dfd")
+		)
+		(pin "6"
+			(uuid "d681a207-73fc-43b6-ba4a-2171c37ded56")
+		)
+		(pin "17"
+			(uuid "f0ea7cb7-84b3-4d3b-aedd-4efa5e1ee9db")
+		)
+		(pin "4"
+			(uuid "36a6cc6d-3556-4ebd-bf47-d9e69c170b1d")
+		)
+		(pin "9"
+			(uuid "af178523-564d-4391-860c-4ba9cff5b38c")
+		)
+		(pin "10"
+			(uuid "3fb0afaf-de97-4717-b7a1-dda88dc47f48")
+		)
+		(pin "3"
+			(uuid "708e0bd1-ffce-4d0a-b700-4f6a02d75792")
+		)
+		(pin "13"
+			(uuid "791df926-4ae3-42cf-a7f4-ef02ca5a45f9")
+		)
+		(pin "15"
+			(uuid "099bd5d2-bc16-4c24-a431-f85abe7986e1")
+		)
+		(pin "18"
+			(uuid "8cbd6d22-9979-4f06-9375-25a9444b3366")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 63.5 154.94 0)
 		(unit 1)
@@ -9503,6 +9652,85 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 266.7 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "953addf3-7c40-4a70-b0ad-bc11dc900d77")
+		(property "Reference" "#PWR075"
+			(at 218.44 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 266.6999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 266.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f84c61a0-577c-4a35-bcde-49b552cd0ceb")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10320,6 +10548,170 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 245.11 241.3 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd915a2-7689-44a4-b3b4-d012d2841cca")
+		(property "Reference" "#PWR079"
+			(at 241.3 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+25V"
+			(at 248.92 241.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 245.11 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9d2e8f1-4d85-47ac-9167-53bd074ffaf2")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Custom Parts:LM2596_module")
+		(at 227.33 261.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af3b33a2-144b-4696-b631-4e47b9d21258")
+		(property "Reference" "U20"
+			(at 234.442 257.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2596 Module"
+			(at 234.442 259.842 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Custom Parts:LM2596 Module"
+			(at 234.315 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LM2596 Module from Aliexpress"
+			(at 227.33 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1195adb-7983-4c57-ae9e-c87b5552e896")
+		)
+		(pin "3"
+			(uuid "1d804b22-011a-4a6d-bf95-cb8ba5ddcf05")
+		)
+		(pin "4"
+			(uuid "566d7cd7-160a-4bfa-989f-645f78f7b8a2")
+		)
+		(pin "1"
+			(uuid "5878a799-ab7f-4a9e-a55b-5bae9008daa8")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U20")
 					(unit 1)
 				)
 			)
@@ -11395,6 +11787,280 @@
 		)
 	)
 	(symbol
+		(lib_id "UDN2981A:UDN2981A")
+		(at 81.28 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d63f773f-1ea7-4289-8a62-8f657c8c9c55")
+		(property "Reference" "U8"
+			(at 81.28 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDN2981A"
+			(at 81.28 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UDN2981A:DIP254P762X533-18"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMD"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "PDIP-18"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "UDN2981A"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "DIP-18 AMD"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_FARNELL" "1193495"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "UDN2981A"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_NEWARK" "31K7841"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
+			(at 81.28 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a1f653f0-e769-4041-8b4c-e6411c9d8a58")
+		)
+		(pin "8"
+			(uuid "0c7e4ff9-a290-45e9-9b36-9efadd888908")
+		)
+		(pin "14"
+			(uuid "36eede6a-68d8-49fd-a2b3-8e0c525359e5")
+		)
+		(pin "16"
+			(uuid "e564b804-aa47-47c5-b4e5-c03fcb0d255c")
+		)
+		(pin "5"
+			(uuid "fa320298-aa7d-46e0-815a-dd7d91584113")
+		)
+		(pin "7"
+			(uuid "42c1bfe0-bf35-4e88-823e-00c39f5abef5")
+		)
+		(pin "11"
+			(uuid "d08e5338-151c-4569-8842-d3e73d16e140")
+		)
+		(pin "12"
+			(uuid "5be48080-4c57-4fe4-a10e-c7f6b39b63d9")
+		)
+		(pin "2"
+			(uuid "dc24f8b1-5935-480e-b5e7-59370643f29c")
+		)
+		(pin "6"
+			(uuid "d9ed5e13-c319-4ca2-9d02-8f0ab15a56e4")
+		)
+		(pin "17"
+			(uuid "732a2e8f-9bc2-42ab-8470-9737a923af17")
+		)
+		(pin "4"
+			(uuid "5f770639-bbee-4d97-8927-701989766aa9")
+		)
+		(pin "9"
+			(uuid "abef0ca3-4f80-4346-a4b2-db17b2a0b682")
+		)
+		(pin "10"
+			(uuid "d0dbfdc7-ebc9-4448-b29b-1ff2b1d86cf6")
+		)
+		(pin "3"
+			(uuid "75ce12d6-8911-4a6c-b41b-e3806d5a8054")
+		)
+		(pin "13"
+			(uuid "439eddd9-472d-4e40-b1a1-8e75d7236a5d")
+		)
+		(pin "15"
+			(uuid "5a0c1261-f2a2-4bfa-9040-406c5d1e3efb")
+		)
+		(pin "18"
+			(uuid "a90ed13c-e66c-49d7-b93c-9456516006b5")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 20.32 182.88 0)
 		(unit 1)
@@ -11708,6 +12374,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 224.79 241.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e52c33ad-1b26-4db3-9214-cff27a51c0f7")
+		(property "Reference" "#PWR073"
+			(at 228.6 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 220.98 241.2999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 224.79 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d00aea50-848d-4772-b0b8-1bcfc2845511")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 175.26 302.26 180)
 		(unit 1)
@@ -11795,7 +12540,7 @@
 	)
 	(symbol
 		(lib_id "UDN2981A:UDN2981A")
-		(at 81.28 43.18 0)
+		(at 81.28 278.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11804,9 +12549,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e8492553-4519-42f9-83e1-c9b7711948d1")
-		(property "Reference" "U2"
-			(at 81.28 22.86 0)
+		(uuid "e7b51bfe-e8de-41ff-90cc-1779934f8810")
+		(property "Reference" "U17"
+			(at 81.28 257.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11816,7 +12561,7 @@
 			)
 		)
 		(property "Value" "UDN2981A"
-			(at 81.28 25.4 0)
+			(at 81.28 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11826,7 +12571,7 @@
 			)
 		)
 		(property "Footprint" "UDN2981A:DIP254P762X533-18"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11838,7 +12583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11849,7 +12594,7 @@
 			)
 		)
 		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11861,7 +12606,7 @@
 			)
 		)
 		(property "MF" "AMD"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11873,7 +12618,7 @@
 			)
 		)
 		(property "PACKAGE" "PDIP-18"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,7 +12630,7 @@
 			)
 		)
 		(property "MPN" "UDN2981A"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11897,7 +12642,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11909,7 +12654,7 @@
 			)
 		)
 		(property "Package" "DIP-18 AMD"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11921,7 +12666,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1193495"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11933,7 +12678,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11945,7 +12690,7 @@
 			)
 		)
 		(property "MP" "UDN2981A"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11957,7 +12702,7 @@
 			)
 		)
 		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11969,7 +12714,7 @@
 			)
 		)
 		(property "OC_NEWARK" "31K7841"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11981,7 +12726,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11993,7 +12738,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
-			(at 81.28 43.18 0)
+			(at 81.28 278.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,64 +12749,64 @@
 				(justify bottom)
 			)
 		)
+		(pin "1"
+			(uuid "c6e07e0d-2e4f-4e80-b9ac-32d42ac61770")
+		)
 		(pin "8"
-			(uuid "50850e2d-46c3-4d60-ac5b-f65034a17c84")
-		)
-		(pin "10"
-			(uuid "7cdf3119-428e-41a4-8e6a-5717408e79ad")
-		)
-		(pin "15"
-			(uuid "f9a7bdd9-b37a-4190-a74a-738eebfb02b8")
-		)
-		(pin "4"
-			(uuid "49776114-a0cf-4f5b-9f63-a1adffe74403")
-		)
-		(pin "7"
-			(uuid "191f0d07-e604-4cea-91b8-482649ca13a5")
-		)
-		(pin "9"
-			(uuid "d7c4a46f-fefd-4c75-b18f-a6a3b52a20ff")
-		)
-		(pin "11"
-			(uuid "aa4f2c30-c931-4f2d-8c9e-f61c2d7371bc")
+			(uuid "4005e048-3613-434f-9533-3fe19c4d31f5")
 		)
 		(pin "14"
-			(uuid "e222c492-ac32-4543-bb1c-ea7687b73825")
-		)
-		(pin "17"
-			(uuid "b0ca749e-712d-4a3a-b2ff-dfd6b3c92d0b")
-		)
-		(pin "18"
-			(uuid "378e4a92-f168-4a94-8748-329a1dc1c898")
-		)
-		(pin "5"
-			(uuid "3dc6e50d-b7bf-45d6-90a2-3df652995b3a")
-		)
-		(pin "1"
-			(uuid "66c1056f-746d-4993-9009-e15cc934eb8f")
-		)
-		(pin "2"
-			(uuid "d561c94f-a76f-4f82-ac77-e728a777c298")
-		)
-		(pin "6"
-			(uuid "ace3835d-37da-4036-bb1e-b9b3eff15742")
-		)
-		(pin "3"
-			(uuid "ff4a68fd-8ff5-46ea-b8c3-76f976a04faa")
-		)
-		(pin "12"
-			(uuid "15519850-0e96-4efa-b809-5bcc2204f82f")
-		)
-		(pin "13"
-			(uuid "c7dd6b32-a41e-4b32-bb60-6c5541c0aba6")
+			(uuid "7f7579bd-e8dc-4bd4-a8b0-471238c790c6")
 		)
 		(pin "16"
-			(uuid "79748122-2265-43c0-9229-9643cf0ea0c7")
+			(uuid "c1c87d9e-c7b5-458e-9f77-7123ce07fb91")
+		)
+		(pin "5"
+			(uuid "16b32c47-4939-40e4-b3c3-acd3e1473531")
+		)
+		(pin "7"
+			(uuid "e66e98c7-4ca7-4678-855e-76e7c306862d")
+		)
+		(pin "11"
+			(uuid "1bf5a45e-a461-4cd7-b555-55f176ddd93e")
+		)
+		(pin "12"
+			(uuid "0e3889dc-dca4-4aff-ac98-7b3f7d984171")
+		)
+		(pin "2"
+			(uuid "334ef04d-6d26-4b53-952b-350622a754a4")
+		)
+		(pin "6"
+			(uuid "e3add1b4-7569-4d19-b825-202c397a71ee")
+		)
+		(pin "17"
+			(uuid "fce4c5f0-1401-4223-8e83-b0f396c0daf0")
+		)
+		(pin "4"
+			(uuid "77743a2a-32ee-4c63-b3be-3ea502adf5ba")
+		)
+		(pin "9"
+			(uuid "84df3646-57fb-4261-be63-8818c130bed8")
+		)
+		(pin "10"
+			(uuid "7313ec76-b557-47a1-baca-c1e8c671a8e6")
+		)
+		(pin "3"
+			(uuid "6151666f-2b19-4db6-85f9-5b69441492a5")
+		)
+		(pin "13"
+			(uuid "431394a5-f34c-491b-a11b-c42b068b80fd")
+		)
+		(pin "15"
+			(uuid "587dafab-4bb4-4ff9-8448-a516f20b6066")
+		)
+		(pin "18"
+			(uuid "2b996db8-6fad-45f4-8130-b2a791d54678")
 		)
 		(instances
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "U2")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -12421,6 +13166,85 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 224.79 262.89 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efdafdbb-170c-494a-8c16-e1d587c7150a")
+		(property "Reference" "#PWR074"
+			(at 228.6 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 220.98 262.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 224.79 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09736cef-28da-474b-bb86-59c3b8f9a8f3")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -13252,6 +14076,280 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "UDN2981A:UDN2981A")
+		(at 81.28 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbfe7754-8e07-4247-bc18-e60b653f3bf7")
+		(property "Reference" "U14"
+			(at 81.28 210.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDN2981A"
+			(at 81.28 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UDN2981A:DIP254P762X533-18"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power Switch/Driver 1:1 Bipolar 500mA 18-DIP"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "AMD"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PACKAGE" "PDIP-18"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "UDN2981A"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "DIP-18 AMD"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_FARNELL" "1193495"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=snap"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "UDN2981A"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SUPPLIER" "ALLEGRO MICROSYSTEMS"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OC_NEWARK" "31K7841"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/UDN2981A/AMD/view-part/?ref=eda"
+			(at 81.28 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "1a21a465-9380-4a5a-9aff-19bd11dbcfeb")
+		)
+		(pin "8"
+			(uuid "03ed7e2a-8a70-48aa-b715-64090e954fcc")
+		)
+		(pin "14"
+			(uuid "19efe4a8-7225-4241-976f-b3bb944dbd38")
+		)
+		(pin "16"
+			(uuid "f4a86967-a64c-4fcc-be66-cd07467d005e")
+		)
+		(pin "5"
+			(uuid "485b5953-cc41-425a-a3c3-dcf46ac9a0f9")
+		)
+		(pin "7"
+			(uuid "c208a0bd-7fe3-420f-a4d9-e4aec0f2f684")
+		)
+		(pin "11"
+			(uuid "fd30bd75-73b7-49dc-9692-31f19d617878")
+		)
+		(pin "12"
+			(uuid "aa9d3621-d1aa-43b7-99c3-83fe19d22fdd")
+		)
+		(pin "2"
+			(uuid "969ac700-d60a-461b-bb71-5114ab436552")
+		)
+		(pin "6"
+			(uuid "76923149-65c7-4418-be01-e136ba4543d8")
+		)
+		(pin "17"
+			(uuid "7b00ee7d-104e-4b59-bd32-ede9d6f3bfca")
+		)
+		(pin "4"
+			(uuid "21d0fefe-6a23-4f4b-82b9-cf17453732df")
+		)
+		(pin "9"
+			(uuid "1431f5df-178b-4b3f-89fa-05c4f7a725ba")
+		)
+		(pin "10"
+			(uuid "9728a7ae-7eb6-4b91-89a2-aa2d73d9e4ef")
+		)
+		(pin "3"
+			(uuid "8783b383-d0ba-48e1-bb8b-ec663894ba6d")
+		)
+		(pin "13"
+			(uuid "b5430d1a-8039-4418-9423-1c7b7d781675")
+		)
+		(pin "15"
+			(uuid "13bd61f3-d02f-4945-ad93-f40aad18550a")
+		)
+		(pin "18"
+			(uuid "013f69dd-c404-4f9a-9e86-7547609c4713")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U14")
 					(unit 1)
 				)
 			)

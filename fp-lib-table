@@ -9,4 +9,5 @@
 	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
 	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/lib/IV-11 VFD Tube.pretty") (options "") (descr ""))
 	(lib (name "IV-11 VFD Tube") (type "KiCad") (uri "${KIPRJMOD}/IV-11 VFD Tube.pretty") (options "") (descr ""))
+	(lib (name "UDN2981A") (type "KiCad") (uri "${KIPRJMOD}/UDN2981A/UDN2981A.pretty") (options "") (descr ""))
 )
