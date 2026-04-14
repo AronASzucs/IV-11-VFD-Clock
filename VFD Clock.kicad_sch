@@ -4727,7 +4727,7 @@
 		)
 		(uuid "ff650c14-ba2a-421c-8148-a86e7c17e6c3")
 	)
-	(label "Shift"
+	(label "OE_PWM"
 		(at 36.83 288.29 180)
 		(effects
 			(font
@@ -4737,7 +4737,7 @@
 		)
 		(uuid "06bf97a7-f9ae-4c39-b05d-b4efe7ba009a")
 	)
-	(label "Shift"
+	(label "OE_PWM"
 		(at 36.83 53.34 180)
 		(effects
 			(font
@@ -4837,7 +4837,7 @@
 		)
 		(uuid "529cf5d7-dcf2-4f04-b9c5-aaed66d44009")
 	)
-	(label "Shift"
+	(label "OE_PWM"
 		(at 36.83 194.31 180)
 		(effects
 			(font
@@ -4877,7 +4877,7 @@
 		)
 		(uuid "5a10dac8-8dc0-45c3-bdaf-b9c91682635e")
 	)
-	(label "Shift"
+	(label "OE_PWM"
 		(at 36.83 147.32 180)
 		(effects
 			(font
@@ -4907,7 +4907,7 @@
 		)
 		(uuid "63eb6100-fc44-4bb8-9785-8ca5ee6c788b")
 	)
-	(label "Shift"
+	(label "OE_PWM"
 		(at 36.83 100.33 180)
 		(effects
 			(font
@@ -5087,7 +5087,7 @@
 		)
 		(uuid "dd007d39-705d-446f-b36c-e1e7857cc01d")
 	)
-	(label "Shift"
+	(label "OE_PWM"
 		(at 36.83 241.3 180)
 		(effects
 			(font
