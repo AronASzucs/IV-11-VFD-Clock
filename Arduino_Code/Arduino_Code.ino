@@ -46,6 +46,24 @@ int clockMode = 0;
 unsigned long lastUpdate = 0;
 bool colonOn = true;
 
+void cycleDisplayMode(){
+  if (displayMode == 2){
+    displayMode = 0;
+  }
+  else{
+    displayMode++;
+  }
+}
+
+void cycleClockMode(){
+  if (clockMode == 6){
+    clockMode = 0;
+  }
+  else{
+    clockMode++;
+  }
+}
+
 void sendFrame(uint8_t t1, uint8_t t2, uint8_t t3, uint8_t t4, uint8_t t5, uint8_t t6) {
   digitalWrite(LATCH_PIN, LOW);
   SPI.transfer(t6); SPI.transfer(t5); SPI.transfer(t4);
