@@ -1,10 +1,22 @@
 /*
-IV-11 VFD Tube Clock code by Aron Szucs
+IV-11 VFD Tube Clock
+code by Aron Szucs
 
+TODO: CODE WORK IN PROGRESS 
 
+Display Modes:
+0 - HH:MM:SS
+1 - HH:MM
+2 - Temperature reading
 
-
-
+Clock MODES:
+0 - Normal operation
+1 - Set Hour (hour digits blinking)
+2 - Set Minute (minute digits blinking)
+3 - Set Second (second digits blinking)
+4 - Set Brightness manually 0-9
+5 - Auto Brightness on/off
+6 - 12/24hr toggle
 */
 
 #include <SPI.h>
@@ -13,10 +25,13 @@ IV-11 VFD Tube Clock code by Aron Szucs
 
 #define LATCH_PIN  10
 #define PWM_PIN    9
+#define DISPLAY_BTN_PIN 2
+#define UP_BTN_PIN 3
+#define DOWN_BTN_PIN 4
+#define SELECT_BTN_PIN 5
+
 #define BRIGHTNESS 0    // 0 = full brightness, 255 = off
 #define DOT_BIT    0b00000010 // defines dot bit
-
-#define MODE 
 
 RTC_DS3231 rtc; // defines clock
 
@@ -24,6 +39,9 @@ const uint8_t digits[] = {  // defines 0 through 9
   0b11101101, 0b00000101, 0b11011100, 0b10011101, 0b00110101,
   0b10111001, 0b11111001, 0b00001101, 0b11111101, 0b00111101
 };
+
+int displayMode = 0;
+int clockMode = 0;
 
 unsigned long lastUpdate = 0;
 bool colonOn = true;
