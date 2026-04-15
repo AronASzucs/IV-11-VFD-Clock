@@ -47,9 +47,9 @@ const int digits[] = {
 const int BLANK = 0b00000000;
 const int LET_A = 0b01111101;
 const int LET_u = 0b11000001;
-const int LET_t = 0b00101100;
+const int LET_t = 0b01110000;
 const int LET_o = 0b11010001;
-const int LET_F = 0b00101100;
+const int LET_F = 0b01111000;
 
 const int brightnessLevels[] = {0, 28, 56, 84, 112, 140, 168, 196, 220, 245};
 
