@@ -4757,7 +4757,7 @@
 		)
 		(uuid "15c3c57e-fd3b-4341-97b2-b891393c8edb")
 	)
-	(label "D2"
+	(label "Mode_Button"
 		(at 229.87 288.29 0)
 		(effects
 			(font
@@ -4767,7 +4767,7 @@
 		)
 		(uuid "196f1576-d80d-4850-8bf8-fc5651c23eef")
 	)
-	(label "D4"
+	(label "Down_Button"
 		(at 163.83 242.57 180)
 		(effects
 			(font
@@ -4777,7 +4777,7 @@
 		)
 		(uuid "1f7cc50f-f832-4ccc-9195-29f51fc297e3")
 	)
-	(label "D5"
+	(label "Select_Button"
 		(at 231.14 323.85 0)
 		(effects
 			(font
@@ -4867,7 +4867,7 @@
 		)
 		(uuid "58270046-ab5c-44c1-baeb-84e17a013fee")
 	)
-	(label "D2"
+	(label "Mode_Button"
 		(at 163.83 237.49 180)
 		(effects
 			(font
@@ -4937,7 +4937,7 @@
 		)
 		(uuid "7cb23ccf-e6b2-445a-862d-e039c3e07554")
 	)
-	(label "D4"
+	(label "Down_Button"
 		(at 229.87 312.42 0)
 		(effects
 			(font
@@ -4997,7 +4997,7 @@
 		)
 		(uuid "98bf5c74-ecfc-43fd-a8d8-cfb8c36751d2")
 	)
-	(label "D3"
+	(label "Up_Button"
 		(at 163.83 240.03 180)
 		(effects
 			(font
@@ -5017,7 +5017,7 @@
 		)
 		(uuid "b4720058-7f66-41bb-9166-bd699a31ec75")
 	)
-	(label "D5"
+	(label "Select_Button"
 		(at 163.83 245.11 180)
 		(effects
 			(font
@@ -5057,7 +5057,7 @@
 		)
 		(uuid "cb620d89-f387-4301-b6b0-42a55db18c22")
 	)
-	(label "D3"
+	(label "Up_Button"
 		(at 229.87 299.72 0)
 		(effects
 			(font
