@@ -6494,7 +6494,7 @@
 				)
 			)
 		)
-		(property "Value" "IV-11 VFD Tube"
+		(property "Value" "Hour Left"
 			(at 106.68 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +6838,7 @@
 				)
 			)
 		)
-		(property "Value" "IV-11 VFD Tube"
+		(property "Value" "Minute Right"
 			(at 106.68 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7307,7 +7307,7 @@
 				)
 			)
 		)
-		(property "Value" "IV-11 VFD Tube"
+		(property "Value" "Hour Right"
 			(at 106.68 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8847,7 +8847,7 @@
 				)
 			)
 		)
-		(property "Value" "IV-11 VFD Tube"
+		(property "Value" "Second Left"
 			(at 106.68 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11174,7 +11174,7 @@
 				)
 			)
 		)
-		(property "Value" "IV-11 VFD Tube"
+		(property "Value" "Minute Left"
 			(at 106.68 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12786,7 +12786,7 @@
 				)
 			)
 		)
-		(property "Value" "IV-11 VFD Tube"
+		(property "Value" "Second Right"
 			(at 106.68 260.35 0)
 			(show_name no)
 			(do_not_autoplace no)
