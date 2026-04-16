@@ -576,18 +576,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x04_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "Custom Parts:DS3231_Module"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "U"
+				(at -3.556 3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -596,8 +592,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04_Socket"
-				(at 0 -7.62 0)
+			(property "Value" "DS3231 Module"
+				(at 3.302 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -606,7 +602,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Custom Parts:DS3231 Module"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -628,7 +624,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -639,139 +635,24 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "DS3231_Module_0_1"
+				(rectangle
+					(start 0 0)
+					(end 7.62 -11.43)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x04_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+			(symbol "DS3231_Module_1_1"
+				(pin power_out line
+					(at 0 -10.16 0)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -786,10 +667,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 2.54)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -804,10 +685,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
+				(pin output line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -822,10 +703,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
+				(pin output line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3657,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 302.26) (xy 185.42 302.26)
+			(xy 168.91 298.45) (xy 163.83 298.45)
 		)
 		(stroke
 			(width 0)
@@ -3707,7 +3588,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 304.8) (xy 185.42 304.8)
+			(xy 168.91 295.91) (xy 163.83 295.91)
 		)
 		(stroke
 			(width 0)
@@ -4616,12 +4497,12 @@
 		(uuid "93c6e76f-19f5-4b0a-ad45-c1bad61826d4")
 	)
 	(label "SCL"
-		(at 185.42 304.8 0)
+		(at 163.83 295.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "98bf5c74-ecfc-43fd-a8d8-cfb8c36751d2")
 	)
@@ -4636,12 +4517,12 @@
 		(uuid "a92da437-74e9-46da-a2da-97db74cea970")
 	)
 	(label "SDA"
-		(at 185.42 302.26 0)
+		(at 163.83 298.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b4720058-7f66-41bb-9166-bd699a31ec75")
 	)
@@ -5500,7 +5381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 220.98 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -9106,6 +8987,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Custom Parts:DS3231_Module")
+		(at 168.91 293.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f320333-57c3-42c6-a1b3-02cce675186f")
+		(property "Reference" "U21"
+			(at 177.8 297.8149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DS3231 Module"
+			(at 177.8 300.3549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Custom Parts:DS3231 Module"
+			(at 168.91 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 293.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "62eaf0bc-893a-4e3b-81b3-22ad7ad238bf")
+		)
+		(pin "1"
+			(uuid "46c988c8-45b7-4336-9abf-12ad9dccda99")
+		)
+		(pin "2"
+			(uuid "34f02d9e-8644-4330-9bcc-800b32187f3a")
+		)
+		(pin "3"
+			(uuid "b178db6e-948a-427a-a39b-9d1f9e65a0b1")
+		)
+		(instances
+			(project "VFD Clock"
+				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC595")
 		(at 49.53 95.25 0)
 		(unit 1)
@@ -9417,7 +9386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 222.25 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -9575,7 +9544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 220.98 312.42 0)
 			(hide yes)
 			(show_name no)
@@ -12145,7 +12114,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 180.34 299.72 270)
+		(at 168.91 300.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12153,10 +12122,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3840ef0-ba3d-496a-b6d2-9f8fbec07b08")
 		(property "Reference" "#PWR072"
-			(at 176.53 299.72 0)
+			(at 172.72 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12167,18 +12135,17 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 184.15 299.7199 90)
+			(at 163.83 301.244 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 299.72 0)
+			(at 168.91 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12189,7 +12156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 299.72 0)
+			(at 168.91 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12200,7 +12167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 180.34 299.72 0)
+			(at 168.91 300.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12880,7 +12847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 219.71 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -13008,7 +12975,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 297.18 90)
+		(at 168.91 303.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13016,10 +12983,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "de2b3d53-68f5-4656-81b8-b68fd35c5467")
 		(property "Reference" "#PWR071"
-			(at 186.69 297.18 0)
+			(at 162.56 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13030,18 +12996,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 297.1799 90)
+			(at 163.576 303.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 297.18 0)
+			(at 168.91 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13052,7 +13017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 297.18 0)
+			(at 168.91 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13063,7 +13028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 297.18 0)
+			(at 168.91 303.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13319,92 +13284,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 175.26 302.26 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6f69c7d-12d7-4815-a8d1-e3a8d1f53f82")
-		(property "Reference" "J1"
-			(at 175.895 292.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DS3231"
-			(at 175.895 294.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 175.26 302.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "ebc9f150-36f8-4b2c-8a18-3aa81d8e7644")
-		)
-		(pin "1"
-			(uuid "d7a0a94a-d2cd-4e07-adcb-d835232c611e")
-		)
-		(pin "4"
-			(uuid "13b96136-a18a-4d05-b12a-8b3e6880d829")
-		)
-		(pin "2"
-			(uuid "ea414bc7-0161-453c-9d88-57fc61c0477f")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "J1")
 					(unit 1)
 				)
 			)
