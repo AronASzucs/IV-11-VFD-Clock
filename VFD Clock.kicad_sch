@@ -1688,396 +1688,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MCU_Module:Arduino_Nano_Every"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3664,6 +3274,74 @@
 		)
 	)
 	(no_connect
+		(at 193.04 237.49)
+		(uuid "096e522b-b88d-4f36-ba76-0d932ba7171f")
+	)
+	(no_connect
+		(at 193.04 255.27)
+		(uuid "176e8695-007e-4e12-878a-4e5e96be17ce")
+	)
+	(no_connect
+		(at 193.04 245.11)
+		(uuid "1a85177b-98c0-4707-bcd0-53d3ba5cb27c")
+	)
+	(no_connect
+		(at 167.64 229.87)
+		(uuid "29e7eace-1864-47c8-b057-d36c68b0c8a8")
+	)
+	(no_connect
+		(at 167.64 252.73)
+		(uuid "48abbb92-2a0a-496f-83d8-9c3e1e2fe6bb")
+	)
+	(no_connect
+		(at 193.04 257.81)
+		(uuid "551d71b1-aa05-43d0-a537-f4a319985bf5")
+	)
+	(no_connect
+		(at 167.64 265.43)
+		(uuid "7900b4d8-c202-4d62-9377-4d85eca91423")
+	)
+	(no_connect
+		(at 167.64 232.41)
+		(uuid "8867403c-0991-4077-b0ba-f29f2a57c1ef")
+	)
+	(no_connect
+		(at 193.04 267.97)
+		(uuid "8c627498-8198-455d-b5c7-3e6d192f1f78")
+	)
+	(no_connect
+		(at 167.64 250.19)
+		(uuid "8d229a98-868e-468c-b8d5-abef9acc1bf7")
+	)
+	(no_connect
+		(at 193.04 234.95)
+		(uuid "9ed84630-bf15-472e-8da8-d6b0a044c819")
+	)
+	(no_connect
+		(at 193.04 252.73)
+		(uuid "adf56f68-75db-4175-85d5-56b2774dd81d")
+	)
+	(no_connect
+		(at 182.88 224.79)
+		(uuid "b5ad964e-e7e1-4dc4-b431-d7dd5c3c211e")
+	)
+	(no_connect
+		(at 167.64 247.65)
+		(uuid "b5b74272-2933-4dc6-8952-83da9ee3510a")
+	)
+	(no_connect
+		(at 177.8 224.79)
+		(uuid "b949166e-7f24-4e11-9058-421884205aab")
+	)
+	(no_connect
+		(at 193.04 265.43)
+		(uuid "be20399c-e044-4c32-994a-48c97cc65d64")
+	)
+	(no_connect
+		(at 193.04 250.19)
+		(uuid "daeeeb70-2eef-4dc7-b26e-763e9f66d913")
+	)
+	(no_connect
 		(at 59.69 295.91)
 		(uuid "f56cbb97-6064-42c4-8297-b18d860f1840")
 	)
@@ -3886,16 +3564,6 @@
 			(type default)
 		)
 		(uuid "46e76133-5c30-4639-94f2-9bd788eed58e")
-	)
-	(wire
-		(pts
-			(xy 226.06 226.06) (xy 229.87 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1f7337-edc1-4d2e-b091-d279be535eef")
 	)
 	(wire
 		(pts
@@ -4206,16 +3874,6 @@
 			(type default)
 		)
 		(uuid "857b85e7-6ccd-4fd2-881d-3d0dbaed0c93")
-	)
-	(wire
-		(pts
-			(xy 247.65 226.06) (xy 245.11 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85ccb5a5-e3c3-428b-a155-737ecc784400")
 	)
 	(wire
 		(pts
@@ -4717,16 +4375,6 @@
 		)
 		(uuid "fac641fb-4af1-4521-a4d5-3a4ae471ce9a")
 	)
-	(wire
-		(pts
-			(xy 165.1 250.19) (xy 167.64 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff650c14-ba2a-421c-8148-a86e7c17e6c3")
-	)
 	(label "OE_PWM"
 		(at 36.83 288.29 180)
 		(effects
@@ -4787,16 +4435,6 @@
 		)
 		(uuid "1f831d9a-ab57-4151-8591-ff0acad908af")
 	)
-	(label "Power LED"
-		(at 165.1 250.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2cd06dfa-7483-4bfe-93c7-c82c4dadf6ff")
-	)
 	(label "Latch"
 		(at 36.83 238.76 180)
 		(effects
@@ -4826,16 +4464,6 @@
 			(justify right bottom)
 		)
 		(uuid "3ed8818b-d8e8-4cd8-bedf-a3fc9855e8cb")
-	)
-	(label "Power LED"
-		(at 247.65 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "529cf5d7-dcf2-4f04-b9c5-aaed66d44009")
 	)
 	(label "OE_PWM"
 		(at 36.83 194.31 180)
@@ -8055,97 +7683,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 233.68 226.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c8df920-5883-4388-a353-8c157d1ca6c7")
-		(property "Reference" "D1"
-			(at 232.0925 219.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power LED"
-			(at 232.0925 222.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 233.68 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b645af14-8ea3-484f-b061-07a9a85b8aa1")
-		)
-		(pin "1"
-			(uuid "09ba87a7-fdd9-435e-aac9-6a0f036c0a3d")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12686,85 +12223,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 226.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4b9e42b-70fc-40f8-84ad-685ff30e3b2b")
-		(property "Reference" "#PWR048"
-			(at 219.71 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 226.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b3b033b3-f016-4acd-8753-0f369e6f3587")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom Parts:IV-11_VFD_Tube")
 		(at 101.6 267.97 0)
 		(unit 1)
@@ -14221,85 +13679,6 @@
 			(project "VFD Clock"
 				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
 					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 241.3 226.06 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e834a875-4a26-4334-b66b-78e803a213cb")
-		(property "Reference" "R1"
-			(at 243.332 220.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 243.332 223.012 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.554 225.044 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 241.3 226.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b359b9d-dba3-4c54-8220-5d29db41222e")
-		)
-		(pin "2"
-			(uuid "5f924364-acab-4dce-a146-87755ee3aa6a")
-		)
-		(instances
-			(project "VFD Clock"
-				(path "/18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
-					(reference "R1")
 					(unit 1)
 				)
 			)
