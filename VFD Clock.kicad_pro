@@ -517,7 +517,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.4,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.4,
@@ -526,7 +526,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
+        "track_width": 1.0,
         "tuning_profile": "",
         "via_diameter": 1.0,
         "via_drill": 0.5
@@ -541,7 +541,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.6,
         "tuning_profile": "",
         "via_diameter": 0.8,
         "via_drill": 0.4
@@ -783,7 +783,7 @@
         "uuid": "18b1ce2b-a4eb-4908-8bcd-bbd2350e3040"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Ud1",
     "variants": []
   },
   "sheets": [
