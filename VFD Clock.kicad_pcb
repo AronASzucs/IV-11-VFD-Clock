@@ -18157,7 +18157,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ad20ec21-3f60-4116-b227-4c7f9a999d6e")
 	)
-	(gr_text "IV-11 VFD Tube Clock\nMade in Wisconsin\nAron Szucs 2026\n"
+	(gr_text "IV-11 VFD Tube Clock R.1\nMade in Wisconsin\nAron Szucs 2026\n"
 		(at 272 80.5 270)
 		(layer "F.SilkS")
 		(uuid "7ec72e74-d935-4303-99d9-82b81ed7cdea")
@@ -18167,6 +18167,18 @@
 				(thickness 0.2)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "I hope this works :)"
+		(at 282.5 142 270)
+		(layer "B.SilkS")
+		(uuid "6fd305ce-5a08-48be-90bf-afc76cc69220")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
