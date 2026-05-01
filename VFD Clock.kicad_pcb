@@ -18157,7 +18157,7 @@
 		(layer "Edge.Cuts")
 		(uuid "ad20ec21-3f60-4116-b227-4c7f9a999d6e")
 	)
-	(gr_text "IV-11 VFD Tube Clock R.1\nMade in Wisconsin\nAron Szucs 2026\n"
+	(gr_text "IV-11 VFD Tube Clock R.1\nDesigned in Wisconsin\nAron Szucs 2026\n"
 		(at 272 80.5 270)
 		(layer "F.SilkS")
 		(uuid "7ec72e74-d935-4303-99d9-82b81ed7cdea")

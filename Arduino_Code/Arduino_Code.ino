@@ -30,7 +30,7 @@ SELECT on clock → toggle display mode
 #define UP_BTN_PIN      3
 #define DOWN_BTN_PIN    4
 #define SELECT_BTN_PIN  5
-#define DOT_BIT         0b00000010
+#define DOT_BIT         0b01000000
 #define DEBOUNCE        150
 
 #define ADDR_BRIGHTNESS  0
@@ -40,8 +40,16 @@ SELECT on clock → toggle display mode
 RTC_DS3231 rtc;
 
 const int digits[] = {
-  0b11101101, 0b00000101, 0b11011100, 0b10011101, 0b00110101,
-  0b10111001, 0b11111001, 0b00001101, 0b11111101, 0b00111101
+  0b10110111, // 0
+  0b10100000, // 1
+  0b00111011, // 2
+  0b10111001, // 3
+  0b10101100, // 4
+  0b10011101, // 5
+  0b10011111, // 6
+  0b10110000, // 7
+  0b10111111, // 8
+  0b10111101  // 9
 };
 
 const int BLANK = 0b00000000;
@@ -113,8 +121,12 @@ void saveSettings() {
 
 void sendFrame(int t1, int t2, int t3, int t4, int t5, int t6) {
   digitalWrite(LATCH_PIN, LOW);
-  SPI.transfer(t6); SPI.transfer(t5); SPI.transfer(t4);
-  SPI.transfer(t3); SPI.transfer(t2); SPI.transfer(t1);
+  SPI.transfer(t1);
+  SPI.transfer(t2);
+  SPI.transfer(t3);
+  SPI.transfer(t4);
+  SPI.transfer(t5);
+  SPI.transfer(t6);
   digitalWrite(LATCH_PIN, HIGH);
 }
 
