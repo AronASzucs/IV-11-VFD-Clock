@@ -62,6 +62,10 @@ Features include PWM brightness control via the 74HC595 OE pin, automatic bright
   <img src="Images/LAYOUT_BOTTOM.jpg" width="49%">
 </p>
 
+<p align="center">
+  <img src="Images/PCB.jpg" width="40%">
+</p>
+
 ---
 
 ## Build Notes
