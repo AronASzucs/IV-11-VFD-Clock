@@ -3216,50 +3216,50 @@
 	)
 	(text "Arduino Nano control"
 		(exclude_from_sim no)
-		(at 234.442 138.176 0)
+		(at 254.508 133.35 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5.08 5.08)
 			)
 		)
 		(uuid "0f2725d3-33dd-416c-bc08-49bf8bcdfa3d")
 	)
 	(text "Input Buttons"
 		(exclude_from_sim no)
-		(at 302.514 222.25 0)
+		(at 322.072 217.678 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5.08 5.08)
 			)
 		)
 		(uuid "11109291-70c6-4d60-b01b-c283f8723c7e")
 	)
 	(text "Clock Module"
 		(exclude_from_sim no)
-		(at 246.38 234.696 0)
+		(at 258.572 230.632 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5.08 5.08)
 			)
 		)
 		(uuid "2bb5e3fa-b17f-4a8c-ad89-cf6b3a811087")
 	)
 	(text "Tube driving logic"
 		(exclude_from_sim no)
-		(at 69.85 78.486 0)
+		(at 96.52 74.676 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5.08 5.08)
 			)
 		)
 		(uuid "72b38b0f-664b-4215-92e0-7cf9937a0ac0")
 	)
 	(text "Voltage buck/boost"
 		(exclude_from_sim no)
-		(at 311.658 161.544 0)
+		(at 333.502 156.718 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 5.08 5.08)
 			)
 		)
 		(uuid "af3eab30-7ee6-4cbc-90b5-201a7f2ffee4")
