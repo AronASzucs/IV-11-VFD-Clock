@@ -1,0 +1,4 @@
+*.lck
+*.bak
+.history/
+fabrication-toolkit-options.json
