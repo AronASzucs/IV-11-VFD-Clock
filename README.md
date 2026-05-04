@@ -1,8 +1,8 @@
+<h1 align="center">IV-11 VFD Tube Clock</h1>
+
 <p align="center">
   <img src="Images/Final_Center.jpg" width="100%">
 </p>
-
-<h1 align="center">IV-11 VFD Tube Clock</h1>
 
 <p align="center">
   <img src="Images/Final_Zoom.jpg" width="49%">
