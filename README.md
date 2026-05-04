@@ -57,6 +57,11 @@ Features include PWM brightness control via the 74HC595 OE pin, automatic bright
 
 2-layer board designed in KiCad, fabricated by JLCPCB. Custom symbols and footprints created for the IV-11 tubes, XL6009 boost converter, and LM2596 buck converter modules. Ground plane on the bottom copper layer. Power traces sized for current capacity: 1.0mm for the 600mA filament rail and 0.5mm for the 25V anode rail.
 
+<p align="center">
+  <img src="Images/LAYOUT_TOP.jpg" width="49%">
+  <img src="Images/LAYOUT_BOTTOM.jpg" width="49%">
+</p>
+
 ---
 
 ## Build Notes
