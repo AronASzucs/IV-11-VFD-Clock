@@ -33,6 +33,11 @@ DS3231 real-time clock module over I2C with CR2032 battery backup. Accurate to Â
 **Microcontroller**
 Arduino Nano Every handling SPI display control, I2C RTC communication, PWM brightness via shift register OE pin, button input with hardware debounce, and EEPROM-persistent user settings.
 
+<p align="center">
+  <img src="Images/SCHEMATIC.jpg" width="50%">
+</p>
+
+
 ---
 
 ## Firmware
@@ -79,7 +84,6 @@ Features include PWM brightness control via the 74HC595 OE pin, automatic-bright
 <p align="center">
   <img src="Images/Front.jpg" width="49%">
   <img src="Images/Quarter.jpg" width="49%">
-
 </p>
 
 ---
@@ -88,7 +92,7 @@ Features include PWM brightness control via the 74HC595 OE pin, automatic-bright
 
 - The IV-11 tubes arrived from Ukraine after ~5 weeks in transit
 - A tube tester utility was written to map each shift register bit to its physical segment before finalizing the digit lookup table
-- The tube footprint was initially mirrored due to a bottom-view vs top-view convention mismatch in an online reference â€” caught before ordering and corrected
+- The tube footprint was initially mirrored due to a bottom-view vs top-view convention mismatch in an online reference, which I caught before ordering and corrected
 - This is my first major PCB design and the first revision worked flawlessly
 - Production-ready Gerber files are included in the `Gerbers` folder. 
 
