@@ -77,7 +77,9 @@ Features include PWM brightness control via the 74HC595 OE pin, automatic-bright
 - To improve signal integrity and simplify routing, I poured a solid ground plane across the entire bottom copper layer of the PCB rather than routing individual ground traces.
 
 <p align="center">
-  <img src="Images/Front.jpg" width="100%">
+  <img src="Images/Front.jpg" width="49%">
+  <img src="Images/Quarter.jpg" width="49%">
+
 </p>
 
 ---
