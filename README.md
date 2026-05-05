@@ -20,7 +20,7 @@ A 6-digit clock built around Soviet-era IV-11 vacuum fluorescent display tubes, 
 ## Hardware
 
 **Display**
-6x IV-11 7-segment VFD tubes driven in a static configuration. One dedicated 74HC595N shift register and UDN2981A high-voltage source driver per tube, all daisy-chained over SPI. Static drive means every tube is on simultaneously at full brightness with no multiplexing.
+6x IV-11 7-segment VFD tubes driven in a static configuration. One dedicated 74HC595N shift register and UDN2981A high-voltage source driver per tube, all daisy-chained via SPI. Static drive means every tube is on simultaneously at full brightness with no multiplexing.
 
 **Power Supply**
 The clock runs entirely from a 5V USB source with two onboard switching converters:
@@ -46,10 +46,10 @@ The clock firmware implements a 7-state FSM for all user interaction:
 | 2 | Set minutes |
 | 3 | Set seconds |
 | 4 | Manual brightness (1–9) |
-| 5 | Auto brightness on/off |
+| 5 | Auto-brightness on/off |
 | 6 | 12/24hr toggle |
 
-Features include PWM brightness control via the 74HC595 OE pin, automatic brightness scheduling by hour of day, hardware debounce capacitors on all button inputs, and full EEPROM persistence for brightness, auto-brightness, and 12/24hr preference across power cycles.
+Features include PWM brightness control via the 74HC595 OE pin, automatic-brightness scheduling by hour of day, hardware debounce capacitors on all button inputs, and full EEPROM persistence for brightness, auto-brightness, and 12/24hr preference across power cycles.
 
 ---
 
@@ -68,11 +68,27 @@ Features include PWM brightness control via the 74HC595 OE pin, automatic bright
 
 ---
 
+## Design Decisions
+- I chose a static drive architecture over multiplexing for driving the VFD tubes to prioritize maximum tube brightness. Multiplexing would have reduced the total IC count substantially, but static drive increases perceived brightness and simplifies the firmware significantly.
+- I used standalone pre-made buck and boost converter modules rather than integrating discrete switching converter circuits directly into the PCB to reduce design complexity on a first revision. These modules are cheap and if one fails in the future it can be swapped out easily.
+- Instead of an ESP32 I used an Arduino Nano Every because this project does not require Bluetooth or WiFi. It is a simple clock after all. This did mean manual time-setting functionality needed to be implemented, which I handled by designing a 7-state FSM with full time adjustment settings. The ESP32 also runs at 3.3V which would have introduced an additional voltage level to manage.
+- I encountered button signal bouncing during breadboard prototyping, so I added hardware debouncing via 100nF capacitors on each button GPIO pin in addition to software debouncing. The combination made false presses essentially nonexistent.
+- I really wanted to add brightness control to my clock so it's not extremely bright at night, so I came up with the idea of toggling the output enable signal of the shift registers from a variable PWM from the Arduino Nano Every. The end result is a clean, software-driven brightness control.
+- To improve signal integrity and simplify routing, I poured a solid ground plane across the entire bottom copper layer of the PCB rather than routing individual ground traces.
+
+<p align="center">
+  <img src="Images/Front.jpg" width="100%">
+</p>
+
+---
+
 ## Build Notes
 
 - The IV-11 tubes arrived from Ukraine after ~5 weeks in transit
 - A tube tester utility was written to map each shift register bit to its physical segment before finalizing the digit lookup table
-- The tube footprint I made was initially mirrored due to a bottom-view vs top-view convention mismatch in an online reference. I caught this before ordering and corrected it.
+- The tube footprint was initially mirrored due to a bottom-view vs top-view convention mismatch in an online reference — caught before ordering and corrected
+- This is my first major PCB design and the first revision worked flawlessly
+- Production-ready Gerber files are included in the `Gerbers` folder. 
 
 ---
 
